@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Process - House of Pentool</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#259df4",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#101a22",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .step-gradient-1 { background: linear-gradient(135deg, #259df4 0%, #1e8ad4 100%); }
+        .step-gradient-2 { background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%); }
+        .step-gradient-3 { background: linear-gradient(135deg, #f472b6 0%, #db2777 100%); }
+        .step-gradient-4 { background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%); }
+        .step-gradient-5 { background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%); }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Top Navigation -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-slate-800 px-6 md:px-20 py-4 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md sticky top-0 z-50">
+<div class="flex items-center gap-4 text-primary" onclick="window.location.href='index.html'" style="cursor: pointer;">
+<div class="size-8 flex items-center justify-center bg-primary text-white rounded-lg">
+<span class="material-symbols-outlined">pentagon</span>
+</div>
+<h2 class="text-slate-900 dark:text-slate-100 text-xl font-bold leading-tight tracking-[-0.015em]">House of Pentool</h2>
+</div>
+<div class="flex items-center gap-6">
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="index.html">Home</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="services.html">Services</a><a class="text-sm font-semibold text-primary" href="process.html">Process</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="portfolio.html">Portfolio</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="contact.html">Contact</a>
+</nav>
+<button class="flex cursor-pointer items-center justify-center rounded-lg h-10 bg-primary/10 text-primary px-4 hover:bg-primary/20 transition-all">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex flex-1 flex-col items-center py-10 px-4 md:px-20">
+<div class="max-w-[1200px] w-full flex flex-col gap-12">
+<!-- Hero Section -->
+<div class="flex flex-col md:flex-row justify-between items-end gap-6 border-l-4 border-primary pl-6 py-2">
+<div class="flex flex-col gap-2">
+<span class="text-primary font-bold tracking-widest uppercase text-xs">Workflow Overview</span>
+<h1 class="text-4xl md:text-6xl font-black leading-tight tracking-[-0.033em] text-slate-900 dark:text-slate-100">Our Creative <br/><span class="text-primary">DNA &amp; Process</span></h1>
+<p class="text-slate-600 dark:text-slate-400 text-lg max-w-xl">From initial discovery to the final unboxing of your vision. We blend structural engineering with vibrant visual identities.</p>
+</div>
+<div class="flex flex-col gap-3 min-w-[240px] bg-white dark:bg-slate-900 p-6 rounded-xl shadow-sm border border-slate-100 dark:border-slate-800">
+<div class="flex gap-6 justify-between items-center">
+<p class="text-slate-900 dark:text-slate-100 text-sm font-bold uppercase tracking-wider">Overall Progress</p>
+<p class="text-primary text-sm font-black">60% Complete</p>
+</div>
+<div class="rounded-full bg-slate-200 dark:bg-slate-800 h-3 overflow-hidden">
+<div class="h-full rounded-full bg-primary" style="width: 60%;"></div>
+</div>
+</div>
+</div>
+<!-- Process Grid -->
+<div class="grid grid-cols-1 gap-6">
+<!-- Step 01 -->
+<div class="group relative grid grid-cols-1 md:grid-cols-[120px_1fr] gap-0 md:gap-6 bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-100 dark:border-slate-800 shadow-xl shadow-primary/5">
+<div class="step-gradient-1 flex flex-col items-center justify-center p-6 text-white">
+<span class="text-4xl font-black opacity-40">01</span>
+<span class="material-symbols-outlined text-4xl mt-2">search_insights</span>
+</div>
+<div class="p-8 flex flex-col md:flex-row gap-8 items-center">
+<div class="flex-1">
+<h3 class="text-2xl font-extrabold text-slate-900 dark:text-slate-100 mb-2">Discovery &amp; Strategy</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">We dive deep into your brand's core values, target audience, and market position. This phase sets the foundation for every creative decision moving forward.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold">User Research</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold">Market Analysis</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold">Brand Workshops</span>
+</div>
+</div>
+<div class="w-full md:w-64 h-40 rounded-xl overflow-hidden shrink-0 border-4 border-slate-50 dark:border-slate-800">
+<div class="w-full h-full bg-slate-200 dark:bg-slate-700 relative overflow-hidden">
+<div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary via-transparent to-transparent"></div>
+<img class="w-full h-full object-cover" data-alt="Strategic planning meeting with colorful sticky notes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpF252VKIubac1WaIk8814Hfa73SoawOZtMSU1CWiyCI_r_dGe28BqUDqzhY1KwvbheHFeMD-7V4iB1F3YkYgryjyKghitutuJt0V1v-XQ_mi2moJbiWeEa6tsYkQGW-ZlFlCWRnfgIF9czpoR5dqltam2N7Hi7S87KkacRf0Y8z8b87C87jwBsBGn7CJCUM5QNk30WQ_fd74vwaKziH4EqQ1WfssI0TqRBBOSJrDdHnkEGOy1sHexqD3jA1EZcmRp63tr8ekVg5dD"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Step 02 -->
+<div class="group relative grid grid-cols-1 md:grid-cols-[120px_1fr] gap-0 md:gap-6 bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-100 dark:border-slate-800 shadow-xl shadow-green-500/5">
+<div class="step-gradient-2 flex flex-col items-center justify-center p-6 text-white">
+<span class="text-4xl font-black opacity-40">02</span>
+<span class="material-symbols-outlined text-4xl mt-2">architecture</span>
+</div>
+<div class="p-8 flex flex-col md:flex-row gap-8 items-center">
+<div class="flex-1">
+<h3 class="text-2xl font-extrabold text-slate-900 dark:text-slate-100 mb-2">Structural Engineering</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">Before aesthetics, we build the skeleton. This involves wireframing, information architecture, and defining the user journey with mathematical precision.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold">Wireframing</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold">Information Architecture</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold">Logic Flow</span>
+</div>
+</div>
+<div class="w-full md:w-64 h-40 rounded-xl overflow-hidden shrink-0 border-4 border-slate-50 dark:border-slate-800">
+<img class="w-full h-full object-cover" data-alt="Technical blueprint and architectural layout drawing" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSNRM8dTA79rEfEzgmgOipAcAGA-ROnwHXrMSVFu2Qr3cFIrX1ekaM6_NTfw1955mExnM1tJK86ciZRj9IXmKLnTsPwyGiaEQnyMFPh2sIFZSRwyu68XanruhczkQdo2AOht1GhhUoc6bs_-DnXrfzDx2aJIin3nkgl71t9P8tbI0SvtVOjdMKY4ztgLl67TwqRa29G3RrTkpX6jnfwAzOxHhKYtjuAMtzamFkfbSj_M-ECaBOa2udw4QqJuxV4BimtvCq9ChWrpjO"/>
+</div>
+</div>
+</div>
+<!-- Step 03 - Current -->
+<div class="group relative grid grid-cols-1 md:grid-cols-[120px_1fr] gap-0 md:gap-6 bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border-2 border-primary shadow-2xl shadow-primary/20 scale-[1.02] z-10">
+<div class="absolute top-0 right-0 bg-primary text-white text-[10px] font-black px-4 py-1 rounded-bl-lg tracking-widest uppercase">Active Stage</div>
+<div class="step-gradient-3 flex flex-col items-center justify-center p-6 text-white">
+<span class="text-4xl font-black opacity-40">03</span>
+<span class="material-symbols-outlined text-4xl mt-2">palette</span>
+</div>
+<div class="p-8 flex flex-col md:flex-row gap-8 items-center">
+<div class="flex-1">
+<h3 class="text-2xl font-extrabold text-slate-900 dark:text-slate-100 mb-2">Visual Identity</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">Where the magic happens. We inject color, typography, and personality. This is the stage where House of Pentool truly leaves its vibrant mark.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-xs font-bold">Color Systems</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-xs font-bold">Typography</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-xs font-bold">Asset Creation</span>
+</div>
+</div>
+<div class="w-full md:w-64 h-40 rounded-xl overflow-hidden shrink-0 border-4 border-slate-50 dark:border-slate-800">
+<img class="w-full h-full object-cover" data-alt="Vibrant abstract colorful geometric art background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKwyLWbsCyMzHNGSSqJxVPltP5qI1V6s7fQHjBHUlFR-nX8nj-W1V1ZWfyZSS6V28Igp-XNHGglq4_fKAVPXv-rj7mlb4M40kK4b-HNmogcHOWfgfnU3cvYf_QBKUGPcMnSoQJwoBgMpE6GnITEi5L12BIpkfN8TJnK90NoNXsEy7r2BVdeg7IhgoFOmyof2LCbZ3kPZNZhd9zzOd4Y0To1_a50PSmc5-kPqt3J1IseVv2b9O1VB-Nayr2O0UlFqnMVKy6jf6lyxl1"/>
+</div>
+</div>
+</div>
+<!-- Step 04 -->
+<div class="group relative grid grid-cols-1 md:grid-cols-[120px_1fr] gap-0 md:gap-6 bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-100 dark:border-slate-800 shadow-xl shadow-amber-500/5">
+<div class="step-gradient-4 flex flex-col items-center justify-center p-6 text-white">
+<span class="text-4xl font-black opacity-40">04</span>
+<span class="material-symbols-outlined text-4xl mt-2">view_in_ar</span>
+</div>
+<div class="p-8 flex flex-col md:flex-row gap-8 items-center">
+<div class="flex-1">
+<h3 class="text-2xl font-extrabold text-slate-900 dark:text-slate-100 mb-2">Prototyping</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">Interactive models that breathe life into the design. We test usability, responsiveness, and tactical feel to ensure a flawless experience.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold">Rapid Prototyping</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold">User Testing</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold">Refinement</span>
+</div>
+</div>
+<div class="w-full md:w-64 h-40 rounded-xl overflow-hidden shrink-0 border-4 border-slate-50 dark:border-slate-800">
+<img class="w-full h-full object-cover" data-alt="Modern smartphone prototype on a desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaTZL87OqlBj9M03ehj4YuXHXbE0DQ2HCGUN21Jggo7X6kMnqRbw8TG_X0X7wdqEoQ918-X7gTUgibt3Z-NKi-G5hlJXAjzOuX7YpK6D1e93zjaVfwZ7kc4s_ofsf_x5fD2IdPvsEa4nrt2KVog9RgPv_QGZ-Y0ssL68ZLGp81PKj9tW9Sbjj2GUS57rovrvY0R79e4NbWjvsuB8SGo0kWWWNUNSF_siYPJGhpslJVhEAARdrV-f2GhtV5dbyB2hgYmgBWE0woTZ7B"/>
+</div>
+</div>
+</div>
+<!-- Step 05 -->
+<div class="group relative grid grid-cols-1 md:grid-cols-[120px_1fr] gap-0 md:gap-6 bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-100 dark:border-slate-800 shadow-xl shadow-purple-500/5">
+<div class="step-gradient-5 flex flex-col items-center justify-center p-6 text-white">
+<span class="text-4xl font-black opacity-40">05</span>
+<span class="material-symbols-outlined text-4xl mt-2">inventory_2</span>
+</div>
+<div class="p-8 flex flex-col md:flex-row gap-8 items-center">
+<div class="flex-1">
+<h3 class="text-2xl font-extrabold text-slate-900 dark:text-slate-100 mb-2">Final Unboxing</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">The grand reveal. We deliver a complete brand toolkit, documentation, and all assets needed to launch your vision into the world.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold">Brand Guidelines</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold">Handover</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold">Launch Support</span>
+</div>
+</div>
+<div class="w-full md:w-64 h-40 rounded-xl overflow-hidden shrink-0 border-4 border-slate-50 dark:border-slate-800">
+<img class="w-full h-full object-cover" data-alt="Premium packaging and branded design assets" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNu5oftZcRse9oYuBbiA0fFuS1FzmWHg0rtf1PrJlAXyn9dIOlwZhtZ0mdGIvKGjr2YGpKzfKHbleFwWrIM92ER-TzPG97vtlxq1SeJUW_Hk2xawVK97GcaaZTU4iGdiGqnE6TsDk2-QQZkr6iQ7ei8_5n0Ler_DgOMKJzojM1n8Rw1lV8KDK1X-WwB5wfGtiXit5giCejtT0ZRy9WojqyqProhK3AAPB4_PEuLeq_rrAzuncs8nl1ziEgJ2LLgotlGEuhXo--0bdl"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Call to Action -->
+<div class="bg-primary/5 dark:bg-primary/10 border-2 border-dashed border-primary/30 rounded-3xl p-12 text-center flex flex-col items-center gap-6">
+<div class="size-16 rounded-full bg-primary flex items-center justify-center text-white text-3xl shadow-lg shadow-primary/40">
+<span class="material-symbols-outlined text-4xl">rocket_launch</span>
+</div>
+<h2 class="text-3xl font-black text-slate-900 dark:text-slate-100">Ready to start your journey?</h2>
+<p class="text-slate-600 dark:text-slate-400 max-w-md">Join the house. Let's build something that stands out in the digital noise.</p>
+<div class="flex gap-4">
+<button class="bg-primary text-white font-bold py-4 px-8 rounded-xl shadow-lg shadow-primary/30 hover:scale-105 transition-transform" onclick="window.location.href='contact.html'">Start Discovery</button>
+<button class="bg-white dark:bg-slate-800 text-slate-900 dark:text-white font-bold py-4 px-8 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-50 transition-colors" onclick="window.location.href='portfolio.html'">View Portfolio</button>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Footer -->
+<footer class="mt-auto py-10 px-6 md:px-20 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950">
+<div class="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-3">
+<div class="size-6 bg-primary rounded text-white flex items-center justify-center">
+<span class="material-symbols-outlined text-sm">pentagon</span>
+</div>
+<span class="font-bold text-slate-900 dark:text-slate-100">House of Pentool © 2024</span>
+</div>
+<div class="flex gap-8">
+<a class="text-xs font-bold text-slate-500 hover:text-primary transition-colors uppercase tracking-widest" href="#">Instagram</a>
+<a class="text-xs font-bold text-slate-500 hover:text-primary transition-colors uppercase tracking-widest" href="#">Dribbble</a>
+<a class="text-xs font-bold text-slate-500 hover:text-primary transition-colors uppercase tracking-widest" href="#">LinkedIn</a>
+</div>
+<div class="text-xs text-slate-400 font-medium italic">
+                    Crafting vibrant digital realities.
+                </div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>

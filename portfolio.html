@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#259df4",
+                        "accent-pink": "#ff71cf",
+                        "accent-lime": "#ccff00",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#101a22",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .bold-border { border: 3px solid #0d161c; }
+        .thick-shadow { box-shadow: 8px 8px 0px 0px #0d161c; }
+        .thick-shadow-sm { box-shadow: 4px 4px 0px 0px #0d161c; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Header -->
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b-4 border-[#0d161c] px-4 md:px-10 py-4">
+<div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+<a class="flex items-center gap-3 hover:opacity-80 transition-opacity" href="index.html">
+<div class="bg-primary p-2 bold-border">
+<span class="material-symbols-outlined text-white text-2xl">package_2</span>
+</div>
+<h1 class="text-xl md:text-2xl font-black uppercase tracking-tighter italic">House of Pentool</h1>
+</a>
+<nav class="hidden md:flex items-center gap-8 font-bold uppercase text-sm"><a class="hover:text-primary transition-colors" href="portfolio.html">Work</a>
+<a class="hover:text-primary transition-colors" href="services.html">Services</a>
+<a class="hover:text-primary transition-colors" href="process.html">Process</a></nav>
+<a href="contact.html"><button class="bg-accent-lime text-black font-black uppercase px-6 py-2 bold-border thick-shadow-sm hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">Get Started</button></a>
+</div>
+</header>
+<main class="flex-1 w-full max-w-7xl mx-auto px-4 md:px-10 py-12">
+<!-- Hero Section -->
+<section class="mb-16">
+<div class="bg-accent-pink p-8 bold-border thick-shadow mb-8">
+<h2 class="text-6xl md:text-9xl font-black uppercase tracking-tighter leading-none text-[#0d161c]">
+                        OUR<br/>WORK
+                    </h2>
+</div>
+<div class="flex flex-wrap gap-4 font-black uppercase text-sm">
+<button class="bg-primary text-white px-6 py-2 bold-border shadow-[4px_4px_0px_0px_#0d161c]">All Projects</button>
+<button class="bg-white dark:bg-slate-800 px-6 py-2 bold-border hover:bg-slate-100 dark:hover:bg-slate-700">Structural</button>
+<button class="bg-white dark:bg-slate-800 px-6 py-2 bold-border hover:bg-slate-100 dark:hover:bg-slate-700">Branding</button>
+<button class="bg-white dark:bg-slate-800 px-6 py-2 bold-border hover:bg-slate-100 dark:hover:bg-slate-700">Unboxing</button>
+</div>
+</section>
+<!-- Main Gallery Grid -->
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-20">
+<!-- Project 1 -->
+<div class="group cursor-pointer">
+<div class="bg-white dark:bg-slate-800 bold-border p-3 thick-shadow-sm group-hover:-translate-y-2 transition-transform">
+<div class="aspect-square bg-slate-200 mb-4 overflow-hidden bold-border">
+<img class="w-full h-full object-cover" data-alt="Vibrant neon juice glass bottle packaging design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCv6VRHxSh94Tu86cL8LqUojZLZpQMN33KXHRtUqjNHG0NNAVINFYo3uCRMjsWCovu9H2BbjfnvSFCSWJL_qCcYWCrg5OiijalrW1z4uaxkXracuS9S_RpJaxDR6CYJUNaSMPPoYYxTcTphcRdTSir21F7yCdV9_dPZsbLq0H5nUsbVi9HDIu8RWnKji6SfC-7ncQomfJdW8-vdEOT7DbkYGcrM-j1iwPgbYEvN0owwGEQVHxZV5Yg0m3LuWUzSoNVIJbAYhzuCYGpG"/>
+</div>
+<span class="inline-block bg-accent-lime text-[10px] font-black px-2 py-1 bold-border mb-2 uppercase">Branding</span>
+<h3 class="text-xl font-black uppercase leading-tight">Neon Juice Co.</h3>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="group cursor-pointer">
+<div class="bg-white dark:bg-slate-800 bold-border p-3 thick-shadow-sm group-hover:-translate-y-2 transition-transform">
+<div class="aspect-square bg-slate-200 mb-4 overflow-hidden bold-border">
+<img class="w-full h-full object-cover" data-alt="Minimalist white and blue skincare bottle structural design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBP0a1J1Yd4dXepuPMbchfjr0gp5pAbrkDILAszg9c-fmlrEt4lPDiEYFUrP5EkzV5GYLsgFMGrzZjn_RUti8cf3gJ1cBPzhwpe6d_29KJgwzwYiM5oCBT2xmGXD3BwXbFz6zmnWLtM2BG64e3A6KyOhSprq-BhrHJo_mZHKtbHW6WiibPO5CFofgXCgsj6GRFH3L9Iev6VrMvCwKxg-X59G_SAE0bqAGmzBXzF8172YavQr-5jWaMFkRyAFXVXRyXtfTaBy73uVOqv"/>
+</div>
+<span class="inline-block bg-primary text-white text-[10px] font-black px-2 py-1 bold-border mb-2 uppercase">Structural</span>
+<h3 class="text-xl font-black uppercase leading-tight">Arctic Skincare</h3>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="group cursor-pointer">
+<div class="bg-white dark:bg-slate-800 bold-border p-3 thick-shadow-sm group-hover:-translate-y-2 transition-transform">
+<div class="aspect-square bg-slate-200 mb-4 overflow-hidden bold-border">
+<img class="w-full h-full object-cover" data-alt="Modern geometric coffee bag packaging design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5crVrF0pPVYLKImIsAIht6h2_Av1HGyj9kCgmByVZ10DB_0I18OA7PmLQOYjdC-OicueB_toQvyqPUNkCSfwWAoLkFEX_8eu8WGdg_pIQ7EIJ30rnnp6DqLux6BdTNkMKmC_VKgikRm9cK7rO_lkUVRJl24t01E5yFblmk5W1G80AdRDO0N9dzwt2PigIH7nWaxXi9FhDtKSFcq9J_KUsN7AwwvNxsT2nq-R-zJdWrKo90KdgqsEdvOtI6D_YSeUnEspAd7EWQbRX"/>
+</div>
+<span class="inline-block bg-accent-pink text-white text-[10px] font-black px-2 py-1 bold-border mb-2 uppercase">Packaging</span>
+<h3 class="text-xl font-black uppercase leading-tight">Vibe Coffee</h3>
+</div>
+</div>
+<!-- Project 4 -->
+<div class="group cursor-pointer">
+<div class="bg-white dark:bg-slate-800 bold-border p-3 thick-shadow-sm group-hover:-translate-y-2 transition-transform">
+<div class="aspect-square bg-slate-200 mb-4 overflow-hidden bold-border">
+<img class="w-full h-full object-cover" data-alt="Colorful snack box with prism patterns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDml9-XEwGyHsDvw6LeraUhiqtNG4h-kBT9dlfXmE9G82X5D3FheDblv4RYjx-wQi6umepi3aSgZ3kMAzVdkQ5UoFxejci6gty0UwyCXo48kILpRLE9xg2ftBiYgGj-1BG3BBnhY3nAuIz5jf14wHY2AWg6haSPJzW_615CJZViADsytdNshW-Z77vaGibdkIdY7a2rp1eipjzUmgWO9kPSHZeA-yb0bHPkSP79VUtVHpDDUi30VaGSwE4TbWhhDap8vxefKRsrqoYZ"/>
+</div>
+<span class="inline-block bg-accent-lime text-[10px] font-black px-2 py-1 bold-border mb-2 uppercase">Branding</span>
+<h3 class="text-xl font-black uppercase leading-tight">Prism Snacks</h3>
+</div>
+</div>
+</section>
+<!-- The Box Lab Section -->
+<section class="mb-20">
+<div class="flex items-center gap-4 mb-8">
+<h2 class="text-4xl font-black uppercase italic">The Box Lab</h2>
+<div class="h-1 flex-1 bg-[#0d161c]"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="bg-primary/20 bold-border p-8 relative overflow-hidden group">
+<div class="relative z-10">
+<h3 class="text-3xl font-black uppercase mb-4">Proto-Types</h3>
+<p class="font-bold mb-6 max-w-md">Our experimental structural playground where we test the limits of paperboard engineering.</p>
+<button class="bg-[#0d161c] text-white px-6 py-3 font-black uppercase text-sm">Enter the Lab</button>
+</div>
+<span class="material-symbols-outlined absolute -right-8 -bottom-8 text-[160px] text-primary opacity-20 rotate-12 group-hover:rotate-0 transition-transform">experiment</span>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-white dark:bg-slate-800 bold-border p-2 aspect-square">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all" data-alt="Raw cardboard packaging prototypes on desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7XFO4Ol53KokMlWG3_-PtMA5LjUirRjbSfboh_5gADy79ZonzfikaGnK_S7w98aR4w_XRorDfxd-hQX7SbtgzArWJtU8kNNVUzhM0n5kj31-I4CDom5J4zWX-id7H9oAYDfqYw4735fNwuw-EMRyjSAYioI4lwddEA-nFQKOV10-ghswMK4sq4ULfhPbd44lSQPt2AuS-ldsEFJ7fp1IMhQzFdLQBnd6owuOtgXxgG5ntjZ4Pr7pMnmaHQZTGiPa0cN2QFSM0lj3R"/>
+</div>
+<div class="bg-white dark:bg-slate-800 bold-border p-2 aspect-square">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all" data-alt="Complex folded paper structure for packaging" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUHTJW7u5LaFFoEJyuUDBVOnpRWEGQ7j2JiQNtN9kdSqxvAkPqjLh3yCpgVkmOZm89hnCpzdSp8nemqJNXKYvf0yHSk77kkUmBB7gpTjYlrwWSGRmOi7jDtR29s_LbFbHxckdaXxQa5YOjRZJwLoF2bppCm5b7sz5eiNh3dgQZ099pYB8bPa9_7LABoxFJd9rX2OtdV6P04EBJqRrcAw8bQxQdsK3LozEx1AiQbfG3HHpXp1wYtKF4XU8iCBgbjV_O6GWyv7lOm8B6"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Unboxing Experiences Section -->
+<section class="mb-20">
+<div class="flex items-center gap-4 mb-8">
+<div class="h-1 flex-1 bg-[#0d161c]"></div>
+<h2 class="text-4xl font-black uppercase italic">Unboxing Experiences</h2>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-white dark:bg-slate-800 bold-border p-4 thick-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+<div class="aspect-video bg-slate-200 mb-4 bold-border overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Hands opening a luxury black gift box" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXSucWxcxra1vzGpoJovGeEyMkdvQPPFoCVP86smCpvcbsLCMiQCcjT7UF-s4SvLkDwRnZSQ31S5dV-UBIt1LkF2oOpwKOVOcg8j08g8Xg5K4C-7gwKlLjWrDcEOJwkxFsF0b2LA15SbKKzKIR6lYoN4xm12miE-0Gia8TQKmHVGvTFROVTni9yI79s2PA5gTQYtZ6jvnabV7lwt5HAWyJA03xbTUG4XGDldPpsRGILz6lzHRC0gY3F1By68vLHOCG-3Ga2VN2Ap9h"/>
+</div>
+<h4 class="text-xl font-black uppercase">Luxury Reveal</h4>
+<p class="text-sm font-bold text-slate-600 dark:text-slate-400 mt-2 italic">Multi-layered engagement for high-end boutique brands.</p>
+</div>
+<div class="bg-white dark:bg-slate-800 bold-border p-4 thick-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+<div class="aspect-video bg-slate-200 mb-4 bold-border overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Eco-friendly mailer box with colorful tissue paper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBl3p2kuGe4dX-r-yaxLR8_gdeoYXkEAKqFWpMF3qi1hqjt0Vo2M1yEvgs98xfEUfkj-kqvZImLpGKuPIxVIl1MY0U8iDmFCjF21XninC9G9GgaIXqWraVWD9H2XxRAggZnvI5poz4gQNBFZaWP6DxpkuC8hPsan-puOCcGwe0vMIgl3AFgE3ciNs07-CRtH9e6BSb5aKPiFHbd8InfhxNNMGtwmS2zc3hgC6kqzBWBcFrLRLl3gQHP6SQCzhEywV8SaXYPiWIegm-e"/>
+</div>
+<h4 class="text-xl font-black uppercase">Eco-conscious Flow</h4>
+<p class="text-sm font-bold text-slate-600 dark:text-slate-400 mt-2 italic">Sustainable materials meeting joyful customer journeys.</p>
+</div>
+<div class="bg-white dark:bg-slate-800 bold-border p-4 thick-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+<div class="aspect-video bg-slate-200 mb-4 bold-border overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Tech product packaging with sliding compartments" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-26b2c304kn0_LQ86oOrMPiaqgHEqVr_R6_2QYjEAA-NKTUNjrkaAk6aFsv7icpfF79h9ugVVhH5ZLDtKyKbszW4rRV0_mq_9Lh29J6S-JOxcPuvPVUyF-Mcurl2VFHbas9roxKeP1NnFhSN6BBWZ2UJTM9tsELii6ViLdkBjBV4np_yMlSmqree9CE2f5iMwyJ-zxOy4-Hru159syl6EbqlygI3DOxkaZEshaC4qFtWfDV_bbFV02dN7nvkZ7IJFnMIQOUS7i1Ce"/>
+</div>
+<h4 class="text-xl font-black uppercase">Tech Slide</h4>
+<p class="text-sm font-bold text-slate-600 dark:text-slate-400 mt-2 italic">Precision engineering for premium electronic hardware.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#0d161c] text-white py-16 px-4 md:px-10 mt-auto">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-2">
+<a class="flex items-center gap-3 mb-6 hover:opacity-80 transition-opacity" href="index.html">
+<div class="bg-primary p-2">
+<span class="material-symbols-outlined text-white text-2xl">package_2</span>
+</div>
+<h1 class="text-2xl font-black uppercase tracking-tighter italic">House of Pentool</h1>
+</a>
+<p class="text-slate-400 font-bold max-w-sm">Crafting iconic packaging experiences that command attention on the shelf and in the home.</p>
+</div>
+<div>
+<h5 class="text-primary font-black uppercase mb-6">Explore</h5>
+<ul class="space-y-4 font-bold uppercase text-sm"><li><a class="hover:text-accent-pink transition-colors" href="portfolio.html">Work</a></li>
+<li><a class="hover:text-accent-pink transition-colors" href="services.html">Services</a></li>
+<li><a class="hover:text-accent-pink transition-colors" href="process.html">Process</a></li></ul>
+</div>
+<div>
+<h5 class="text-primary font-black uppercase mb-6">Connect</h5>
+<ul class="space-y-4 font-bold uppercase text-sm"><li><a class="hover:text-accent-pink transition-colors" href="portfolio.html">Work</a></li>
+<li><a class="hover:text-accent-pink transition-colors" href="services.html">Services</a></li>
+<li><a class="hover:text-accent-pink transition-colors" href="process.html">Process</a></li></ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto border-t border-slate-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-black uppercase tracking-widest text-slate-500">
+<p>© 2024 HOUSE OF PENTOOL. ALL RIGHTS RESERVED.</p>
+<div class="flex gap-8">
+<a href="#">Privacy Policy</a>
+<a href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+</div>
+</body></html>

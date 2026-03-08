@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f33fab",
+                        "accent-lime": "#bef264",
+                        "accent-blue": "#38bdf8",
+                        "accent-coral": "#fb7185",
+                        "background-light": "#f8f5f7",
+                        "background-dark": "#22101b",
+                        "card-dark": "#2d1624",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .neo-brutalism {
+            box-shadow: 12px 12px 0px 0px rgba(0,0,0,1);
+            border: 4px solid black;
+        }
+        .neo-brutalism-sm {
+            box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+            border: 3px solid black;
+        }
+    </style></head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 overflow-x-hidden">
+<div class="relative flex min-h-screen w-full flex-col">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 w-full border-b-4 border-black bg-primary px-6 py-4 md:px-20">
+<div class="mx-auto flex max-w-7xl items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center border-2 border-black neo-brutalism-sm bg-white">
+<span class="material-symbols-outlined text-black font-bold">pentagon</span>
+</div>
+<h2 class="text-2xl font-black tracking-tighter text-black uppercase">House of Pentool</h2>
+</div>
+<nav class="hidden md:flex items-center gap-10">
+<a class="text-sm font-black uppercase tracking-widest text-black hover:underline underline-offset-4" href="#">Work</a>
+<a class="text-sm font-black uppercase tracking-widest text-black hover:underline underline-offset-4" href="#">Services</a>
+<a class="text-sm font-black uppercase tracking-widest text-black hover:underline underline-offset-4" href="#">Process</a>
+</nav>
+<button class="neo-brutalism-sm bg-accent-lime px-6 py-2 text-sm font-black uppercase text-black transition-transform hover:-translate-y-1">
+                    Get Started
+                </button>
+</div>
+</header>
+<!-- Hero Section -->
+<main class="flex-1">
+<section class="relative flex min-h-[90vh] flex-col lg:flex-row border-b-4 border-black bg-accent-blue">
+<div class="flex-1 flex flex-col justify-center p-8 md:p-20 relative z-10">
+<div class="inline-block self-start mb-6 px-4 py-2 bg-white border-4 border-black font-black uppercase tracking-tighter -rotate-1 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">Packaging Revolution</div>
+<h1 class="text-6xl md:text-8xl lg:text-9xl font-black leading-[0.9] tracking-tighter text-black uppercase">
+            WE UNBOX <br/><span class="bg-white px-2 border-4 border-black inline-block rotate-2 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">POTENTIAL.</span>
+</h1>
+<p class="mt-10 max-w-xl text-2xl font-bold text-black leading-tight">
+            Vibrant, high-energy packaging design that demands attention and moves products off the shelf fast.
+        </p>
+<div class="mt-12 flex flex-wrap gap-6">
+<button class="neo-brutalism bg-primary px-10 py-5 text-xl font-black uppercase text-white hover:-translate-y-1 transition-transform">Start a Project</button>
+<button class="neo-brutalism bg-white px-10 py-5 text-xl font-black uppercase text-black hover:-translate-y-1 transition-transform">Our Work</button>
+</div>
+</div>
+<div class="flex-1 bg-accent-coral border-l-4 border-black relative overflow-hidden">
+<img class="w-full h-full object-cover grayscale mix-blend-multiply opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDE7CZ2MeOjqUe1IMpcywC1fU7U16t60NR0dY5q1xn9YVgBTu2f2tByQjeR9vnlj6cT09c-IgwV2Xa1L8E_tw480Dt0ASc74OqBpIYRxFiTYLoQ71hR4ZIKEOq6a75JjzeUbzPFAZZRZoXn_QHSpqpt8PfDzBImJAY3n5AdWBGL6Vtmp8tq4jBhSNlQtTIrQxZcLB7gGpoeKAIx6SZeADaknHeAWXktUyYiusiOGzFDMq1M0PGYD92Nxdf3TxFyoUC_I6HKFlNHTRN3"/>
+<div class="absolute inset-0 flex items-center justify-center p-12">
+<div class="neo-brutalism bg-white p-2 rotate-6 scale-125">
+<img class="w-full h-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDE7CZ2MeOjqUe1IMpcywC1fU7U16t60NR0dY5q1xn9YVgBTu2f2tByQjeR9vnlj6cT09c-IgwV2Xa1L8E_tw480Dt0ASc74OqBpIYRxFiTYLoQ71hR4ZIKEOq6a75JjzeUbzPFAZZRZoXn_QHSpqpt8PfDzBImJAY3n5AdWBGL6Vtmp8tq4jBhSNlQtTIrQxZcLB7gGpoeKAIx6SZeADaknHeAWXktUyYiusiOGzFDMq1M0PGYD92Nxdf3TxFyoUC_I6HKFlNHTRN3"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Portfolio Comparison Section -->
+<section class="py-12 bg-white border-b-4 border-black">
+<div class="mx-auto max-w-full px-4">
+<div class="grid grid-cols-1 md:grid-cols-2">
+<div class="p-12 border-b-4 md:border-b-0 md:border-r-4 border-black bg-slate-100 flex flex-col justify-center">
+<h2 class="text-6xl font-black uppercase tracking-tighter mb-8">The "Boring" Way</h2>
+<div class="neo-brutalism overflow-hidden grayscale">
+<img class="w-full h-[400px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIU0-X_TwVk1DPT5O1sUnankqJXdxbY81fnfN6FtIEGCdRQihCcHurghE05iiUnMeouJf0W2Y61HiY5A5CH9lJNu64onw75OEBTkJmd7PYEfzciUkw0lN5BuL0yvOJESI5CIvydPQnBxPxRaAbwIPORQH_DJ2JgsTzfvJ83A3BS8ELIO_CuI_Fb8gxoj6gSNu9CJE_-iQ_7sY8-J3GTiV9WjN3xe4S6rt_iNgTWu6vfCQgH0-pRbjdltev79WQK3Ce0OiFdkdtWtqC"/>
+</div>
+</div>
+<div class="p-12 bg-accent-lime flex flex-col justify-center">
+<h2 class="text-6xl font-black uppercase tracking-tighter mb-8">The Pentool Way</h2>
+<div class="neo-brutalism overflow-hidden">
+<img class="w-full h-[400px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAe6MYN6ZgPpSCK4cyhtWJ1fZa33gBn4nu0u25rvjAjHjZ4t5oq6SYKOtEUU3wiKetwy2XWqHdSrk3R-8vtNheLB3V7UbMDvrWIM_xbB51qq9AyoFTSXe69xcq1ZWWniXT4_1JPIqfAJeB-EiUDG0qwFAJTh42B4sVfItfQARtAdcR3kTT6utMV5RgYblzQ4WtFxztMzINosVAtNqVLNwZFmmGjjC9_YW9KtY6s5L3vikmRtk0n2m-zeQMkRHTTvhCWl6enwPDOP36p"/>
+<div class="bg-black p-6 text-white border-t-4 border-black">
+<h4 class="text-3xl font-black uppercase">UNMISSABLE IMPACT</h4>
+<p class="text-xl font-bold opacity-80">Custom die-cuts and neon spot UV finishes.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Grid with Segmented Color Blocks -->
+<section class="border-b-4 border-black">
+<div class="grid grid-cols-1 md:grid-cols-3">
+<div class="bg-accent-coral p-16 border-b-4 md:border-b-0 md:border-r-4 border-black flex flex-col gap-10">
+<div class="neo-brutalism-sm h-24 w-24 flex items-center justify-center bg-white rounded-full rotate-3">
+<span class="material-symbols-outlined text-6xl text-black">package_2</span>
+</div>
+<div>
+<h3 class="text-4xl font-black uppercase tracking-tighter leading-none mb-6">Packaging Design</h3>
+<p class="text-xl font-bold text-black">High-energy graphics that command premium shelf space.</p>
+</div>
+</div>
+<div class="bg-accent-blue p-16 border-b-4 md:border-b-0 md:border-r-4 border-black flex flex-col gap-10">
+<div class="neo-brutalism-sm h-24 w-24 flex items-center justify-center bg-white rounded-full -rotate-6">
+<span class="material-symbols-outlined text-6xl text-black">style</span>
+</div>
+<div>
+<h3 class="text-4xl font-black uppercase tracking-tighter leading-none mb-6">Brand Identity</h3>
+<p class="text-xl font-bold text-black">Bold visual systems that create instant market recognition.</p>
+</div>
+</div>
+<div class="bg-accent-lime p-16 flex flex-col gap-10">
+<div class="neo-brutalism-sm h-24 w-24 flex items-center justify-center bg-white rounded-full rotate-12">
+<span class="material-symbols-outlined text-6xl text-black">deployed_code</span>
+</div>
+<div>
+<h3 class="text-4xl font-black uppercase tracking-tighter leading-none mb-6">Structural Prototyping</h3>
+<p class="text-xl font-bold text-black">Engineered unboxing experiences that wow your customers.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonial: Bold High-Contrast Block -->
+<section class="bg-primary py-24 px-6 md:px-20 border-b-4 border-black">
+<div class="mx-auto max-w-6xl">
+<div class="neo-brutalism bg-white p-12 md:p-20 relative overflow-hidden">
+<span class="material-symbols-outlined absolute -top-10 -right-10 text-[300px] text-primary/10 select-none">format_quote</span>
+<div class="relative z-10">
+<h2 class="text-black text-2xl font-black uppercase tracking-widest mb-10 bg-accent-lime inline-block px-4 py-1 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">What They Say</h2>
+<blockquote class="text-black text-4xl md:text-6xl font-black leading-none tracking-tighter mb-12 uppercase italic">
+                    "HOUSE OF PENTOOL DIDN'T JUST CHANGE OUR PACKAGING; THEY CHANGED OUR ENTIRE <span class="bg-primary text-white px-2">BRAND TRAJECTORY</span>. SALES INCREASED BY 340%."
+                </blockquote>
+<div class="flex items-center gap-8">
+<div class="size-24 neo-brutalism-sm rounded-full overflow-hidden rotate-3">
+<img class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqaVBUMCz6MW2qDnxc62msXY8iCfIEbZG5Cm-IwOibwoQ7jxG0cmfmpfOC77n6nOllI3Xsay6Y2W3BRCUGM5TchepIqIklG0qt_3sngEsKRit1vvmBy5qh8lFQRylH5F4Tiu3fdH3izrPxvdtgzr8wpir7AW9oMxyo2kG--8i5t_vfjJnwthHUzMrNSFKB2D-U4FcjBHlmt9frJBaPlcBQVAgsu3J5zXbhMwpft3njDH9ukuGV7Xw3G84xJb-o7D4aiXgYYX6vg1PR"/>
+</div>
+<div>
+<p class="text-3xl font-black uppercase">MARCUS REED</p>
+<p class="text-xl font-bold text-primary uppercase tracking-tighter">Founder, Velocity Snacks</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="bg-accent-lime py-20 px-6 border-b-4 border-black text-center">
+<div class="mx-auto max-w-5xl">
+<h2 class="text-6xl md:text-9xl font-black uppercase tracking-tighter leading-none text-black">LET'S MAKE A <span style="position: relative; display: inline-block;"><s>BABY</s><span style="position: absolute; top: -0.8em; left: 50%; transform: translateX(-50%); font-size: 0.35em; text-transform: uppercase; font-weight: 900; color: white; background: black; padding: 4px 8px; line-height: 1; border: 2px solid white;">BRAND</span></span> TOGETHER</h2>
+<p class="mt-12 text-2xl font-black text-black uppercase">READY TO STAND OUT FROM THE NOISE?</p>
+<button class="neo-brutalism mt-12 bg-black px-12 py-8 text-3xl font-black uppercase text-white hover:scale-105 transition-transform">
+            Get a Free Quote
+        </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-white px-6 py-12 md:px-20">
+<div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-12 md:flex-row">
+<div class="flex items-center gap-4">
+<div class="flex h-12 w-12 items-center justify-center border-4 border-black neo-brutalism-sm bg-primary">
+<span class="material-symbols-outlined text-white font-bold">pentagon</span>
+</div>
+<span class="text-4xl font-black tracking-tighter uppercase">House of Pentool</span>
+</div>
+<div class="flex gap-6">
+<a class="h-12 w-12 flex items-center justify-center border-2 border-black neo-brutalism-sm bg-accent-lime hover:-translate-y-1 transition-transform" href="#"><span class="material-symbols-outlined text-black">language</span></a>
+<a class="h-12 w-12 flex items-center justify-center border-2 border-black neo-brutalism-sm bg-accent-coral hover:-translate-y-1 transition-transform" href="#"><span class="material-symbols-outlined text-black">share</span></a>
+<a class="h-12 w-12 flex items-center justify-center border-2 border-black neo-brutalism-sm bg-accent-blue hover:-translate-y-1 transition-transform" href="#"><span class="material-symbols-outlined text-black">alternate_email</span></a>
+</div>
+<p class="text-sm font-black uppercase tracking-widest opacity-60">© 2024 HOUSE OF PENTOOL. ALL RIGHTS UNBOXED.</p>
+</div>
+</footer>
+</div>
+</body></html>
