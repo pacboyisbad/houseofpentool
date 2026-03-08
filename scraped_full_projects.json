@@ -1,0 +1,281 @@
+[
+  {
+    "name": "THE BODY SHOP - Campaign",
+    "url": "https://mrpentool.com/the-body-shop-campaign",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/24f0a43c-0b6c-41c9-bddd-b605ca86cc1a_rw_3840.jpg?h=be1d77bb081aec346ec42a91e62afe54&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvODM3NjE3MjM0ODEzMTI1LjY4Y2FiNjc4YjUwZmIuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/0c1202e6-33ca-40d6-8e65-b924049e5e75_rw_3840.jpg?h=c19d30eb028a0a4ea05bf9b6d2010fd0&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvYTBhZWQxMjM0ODEzMTI1LjY4Y2FiNjc4YjQyYTYuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/29315a6e-7ef6-42f3-872c-cf067ab5537f_rw_1920.jpg?h=b12cb82ba44cb06f8060537f89d94f5c&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvZGQzNzQyMjM0ODEzMTI1LjY4Y2FiNjc4YjQ4ZTQuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/4ec80380-75ca-4994-a38f-d0cea66f2c2b_rw_1920.gif?h=dcd4b13537320fcda15d331c1ac7bd94&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvNDhiN2YxMjM0ODEzMTI1LjY4ZTBhOGYxMmMzZGMuZ2lm",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/d675a670-e1e2-44ca-bf02-7f5ecc2ae649_rw_1920.gif?h=c654bb18e6c7487c9d4fbc658065b5fe&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvZTA0OTU5MjM0ODEzMTI1LjY4ZTBhOGYxMmM5NDIuZ2lm",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/1a38ea54-2b40-4587-9f40-6571190fcc20_rw_1920.gif?h=d927c461293e9e627ab3897b7ef3636e&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvMGIwMzUwMjM0ODEzMTI1LjY4ZTBhOGYxMmJiOTguZ2lm",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/700523fc-6b2a-4d82-b98c-9b2e056ef4ce_rw_1920.jpg?h=7cdef4a173163faa7ee2844d4f41dead&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvOWNkODMwMjM0ODEzMTI1LjY4Y2FiNjdhMGM2ZjAuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/16bffada-f68f-4c9f-93e5-1dffe93ab1d4_rw_3840.jpg?h=4aa898be8be641de7d049d0a075d65a7&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvNzBlMWEyMjM0ODEzMTI1LjY4Y2FiNjdhMGI2ODIuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/c01ea9c1-3d07-4d08-bed8-21a81b616962_rw_3840.jpg?h=d1b95e1a73db9a558f4585e99c06796c&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvY2I3MTc3MjM0ODEzMTI1LjY4Y2FiNjdhMGRhY2EuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/ab4d36ff-1af0-4109-baae-5a4c56acfa75_rw_3840.jpg?h=7d8aa4e7fe81b2feb1e0f6b8b84c7858&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvYjM2MDE2MjM0ODEzMTI1LjY4Y2FiNjdhMGJlYmIuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/c9fffbca-0e36-4d3a-b7aa-fad54d29614a_rw_3840.jpg?h=75d8e51d658234643ee6649676e1c98f&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvZmZhNWU2MjM0ODEzMTI1LjY4Y2FiNjdhMGQyNjcuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/2dc8f1ef-8bdf-49bc-ad6a-4ef00d9216ab_rw_3840.jpg?h=70c9f31404fde12d8ad4f1b176fba04e&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvMTdiYzAyMjM0ODEzMTI1LjY4Y2FiNjdhMGNjNDYuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/2b885a6d-1ed5-4362-a975-ac9ad980a72c_rw_1920.jpg?h=4ca53eeb44b34220fb6d377f1455aa46&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvMTk0ODM0MjM0ODEzMTI1LjY4Y2FiNjdjYTY3YjIuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/2060065d-bf77-4f03-b0dd-29b1cc2e05de_rw_1920.jpg?h=09e77e0758863ce7666496c7d2a65dba&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvZDgxMzBlMjM0ODEzMTI1LjY4Y2FiNjdjYTU1Y2UuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/61cd7b00-753f-4314-9c72-125945aa902e_rw_1920.jpg?h=4b65e5e420495d1498c06da67b1d7f74&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvOGY5MzY3MjM0ODEzMTI1LjY4Y2FiNjdjYTVmNjguanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/a73312a5-2e9d-4e04-ba44-07e301f2e541_rw_3840.jpg?h=5804d8bd509d5b5f608c81e0ea4d4454&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvMmM5OTA1MjM0ODEzMTI1LjY4Y2FiNjdjYTRkMGEuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/f6f62a85-7d19-431b-af0c-41d07f6942c2_rw_1920.jpg?h=112a8d5af5169bfe891f08ed59688b89&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvMGY3ZjkyMjM0ODEzMTI1LjY4Y2FiNjdkYzcxY2IuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/921723f2-3f97-4ce6-824f-1d9f0921b8df_rw_1920.jpg?h=7404119f6a978e82e5046c8eb5b776b2&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvNjk4MDkzMjM0ODEzMTI1LjY4Y2FiNjdkYzdhZmIuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/983f51e1-1807-42fe-b19c-a3f9fcd398e2_rw_600.jpg?h=fce1567dfd6816f947c1fc01662405f3&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvZGQwMzBjMjM0ODEzMTI1LjY4Y2FiNjdkYzZhYzAuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/45cdcd68-62ff-4c0e-b585-0df952377364_rw_3840.png?h=b85a11eaab391239a03c74fd30daa169&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvMGZlZjZjMjM0ODEzMTI1LjY4Y2FiNjdkYzkzMTMucG5n",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/0632f2f0-aedd-45fc-9872-81de60b14a1d_rw_1920.png?h=a8ebfd7ed48a9deae28f69b079c8c785&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvM2ViOTlmMjM0ODEzMTI1LjY4Y2FiNjdkYzliYjUucG5n",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/c9bec86e-d1d3-4de1-a230-5cc8c1618a07_rw_1920.jpg?h=b4fb182a61c422f2d0573ee5aad7f3f3&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvMjc0MTA4MjM0ODEzMTI1LjY4Y2FiNjdkYzg5OWEuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/4357076e-24b9-498f-8765-ad6f1b40e61b_rw_3840.jpg?h=d74999e481cd3b2eab83b02664487c06&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvNTg2Zjk2MjM0ODEzMTI1LjY4Y2FiNjdmNmNjYjEuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/bd8d3db1-1fda-44f6-a4d1-e9a8379791bf_rw_3840.jpg?h=9a0b19fbe7fd49b9c789c9612899aaf0&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvNGNhNmQ2MjM0ODEzMTI1LjY4Y2FiNjdmNmMxM2QuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/eb5b04cd-298a-4141-a532-e78d68649bf7_rw_3840.jpg?h=e8e0a3956a7bc8436867c7ab4a46fe34&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvZDc1Y2NlMjM0ODEzMTI1LjY4Y2FiNjdmNmM3YmQuanBn",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/656a83e6-6b0b-479b-a4f2-de508b0cb8c7_rw_1920.jpg?h=e0042d9ef33b869b9f8a4d276a901b67&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RfbW9kdWxlcy9zb3VyY2UvMmRmMWRhMjM0ODEzMTI1LjY4Y2FiNjdlZDE1NWEuanBn"
+    ],
+    "texts": [
+      "THE BODY SHOP - Campaign"
+    ]
+  },
+  {
+    "name": "Luxury Cosmetics Logo & Branding",
+    "url": "https://mrpentool.com/luxury-cosmetics-logo-design-and-branding",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/9d5d0f91-6bf7-44af-887b-c63391b94bc7_rw_3840.jpg?h=b082a15cf70fed71c2896321ce2c5289",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/fa3dad12-ee1a-4d4c-afc8-d36aac4219b8_rw_3840.jpg?h=0eeab791e1b6b4084bd8d8554dc7255c",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/10da62b8-3e12-4287-af1e-d7e406276374_rw_1920.jpg?h=545808c1a8d77a887dc1c4a552b69458",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/96f6d43d-d6ef-4220-bc7b-8e4cd75b3072_rw_1920.jpg?h=1c36e2c2752fcfc70b5a2a929203aa6f",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/26bd5d18-19ea-4487-a862-8124319f02d4_rw_1920.jpg?h=4304f011471ceac7f324a2a5c8ab0ec4",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/983e7ce5-3654-4332-9e16-ee4aefd5af8c_rw_3840.jpg?h=f88de0345611d38ce16f735ee9bca339",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/2788af1a-c914-4e82-8278-d9161074c3c5_rw_1920.jpg?h=4ab68c92b3c691f25589c7a48f45215f",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/31bf1365-a265-4e3f-9c53-391d1794982e_rw_1920.jpg?h=de221bc5ffb97519576fd06785461f59",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/a63fc49d-eb40-493f-b481-fc100a1f1858_rw_3840.jpg?h=1385d545b1b4856310637412ddac43d2",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/51fdf5ea-7e5a-449a-b6cb-4a11d539d7ec_rw_3840.jpg?h=8c731855465871d0f9b5fc8042c78302",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/7762da7a-c8c3-4ecf-be67-edad5d00281e_rw_3840.jpg?h=59bd70743ecc944b787e860cf68959f0"
+    ],
+    "texts": [
+      "luxury cosmetics Logo Design and Branding"
+    ]
+  },
+  {
+    "name": "The BodyShop India - The India Edit",
+    "url": "https://mrpentool.com/the-bodyshop-india-the-india-edit",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/b64ff118-5d22-435a-afa7-b83c3412dc17_rw_3840.jpg?h=021d42071da6f5c7d23549697121d598",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/4824a1ee-8409-45ee-b54a-516fdb587807_rw_3840.jpg?h=36e08fab3239ca972cbca128a681d7e3",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/6574daae-612b-41d7-bd60-f6e309124898_rw_3840.jpg?h=ed3fe1ebcea6ec18941581ae2bc3381f",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/a1c49712-b075-4b3b-933e-1cfc0474430a_rw_3840.jpg?h=3c976ab1e84202fa450db2653d10de1e",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/d169acf7-7532-4ae1-9658-911cb267bf56_rw_1920.jpg?h=6f8bc4e5de1f36ae0ca54254243332aa"
+    ],
+    "texts": [
+      "The BodyShop India - The India Edit"
+    ]
+  },
+  {
+    "name": "Image Retouching & Manipulation for SHAZ\u00c9",
+    "url": "https://mrpentool.com/image-retouching-manipulation-for-shaze",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/2e6a90de-44c9-4e16-b381-69c8ae7ac048_rw_1920.png?h=9c44a28100152321144addd167d5da42",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/c014479d-e001-4487-b9ef-d7bcc2fbbc96_rw_3840.jpg?h=30c84a0238dd91e32fa19d0b7807d56f",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/d78e8c17-bc2b-4d39-92a4-5e7f4680d7e3_rw_3840.jpg?h=c906a76e38e161a7ad877ca94e97041f",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/4412c214-794f-46e3-8724-a2b7ffc6dcd6_rw_3840.gif?h=f8e22e80a161ccc7d66ab07dfd804f97",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/b148c5bc-42e1-473e-8b3d-0ebb2d02a9e3_rw_3840.jpg?h=9de79c343836137a8f553dae134765ac",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/6029484d-39ec-493b-98d7-649538d08ea8_rw_3840.jpg?h=6ccd405a6a512e11b1dcb2bdb0b48d5c",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/814123b3-dd98-44b2-ad79-41a63afb60ee_rw_3840.gif?h=9096033945c33ffd02f357aebc36cd4b",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/9faed10c-7d08-4eb2-8d81-30bea515a781_rw_3840.jpg?h=2ec655de3de5f0951696f02afbdfa3c2",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/93998b91-bdb4-4eaf-b252-ef937dd2f10c_rw_3840.jpg?h=52b6bf6ff63b443a0aca819a23be2e9f",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/4a814fb2-d405-43e1-b592-52e236655aa6_rw_3840.jpg?h=8408ce798d916a2275cbda44d0bcefce",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/988e8c84-da18-4998-b6f1-eb19de6359c0_rw_3840.jpg?h=29a8cf0205b88dae16ea9eb979890f8d",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/3c85f29d-28a1-4b76-bb72-60d457b0bc2c_rw_3840.jpg?h=693e4fbdd828b7883ad4ed8d873b130a",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/ff88993b-9eea-4aa4-be9d-b7850d80f8ab_rw_3840.jpg?h=6a0d5c8b40795dbbb50a56f8776a4e90",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/f97a7670-52bd-43a8-800b-5c4132c98554_rw_3840.jpg?h=36d988208eb9f59ed92f5750a2e26fed",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/f9cd860d-bb1e-482b-840e-2c29d90233a3_rw_3840.jpg?h=e750376eec2caeb4c0c91f8693c9ea80",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/3d3370bd-fce2-45de-a512-6cfa7c9d3ddf_rw_3840.jpg?h=04c649dd0e90f76f7a9c9b9d69a3e744",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/e31304f8-e4b1-4d4e-b7db-8a78f09bbda7_rw_3840.jpg?h=481e65e2b27bd2e6af97bc477094ed91",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/ada5bfd0-18ed-4fe1-a187-5f4c44eac8fc_rw_3840.gif?h=fa6e2e0485f4ce087c7e281d53686aec",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/33b275c6-19b9-4728-b797-1b7dc98475f9_rw_3840.jpg?h=bab220ef8e633f559d59381c94ee16d4",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/536c579d-1532-4b19-b10e-ea7bf2b85190_rw_3840.jpg?h=50461ff517238a1467d3d735a2b3f641",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/736bbf16-ee84-462e-9a50-52d99244c67b_rw_3840.jpg?h=8055a1e862fc3a5bac5ab317056b0d96",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/a597772f-5158-44fd-abcb-6f071da2802f_rw_3840.jpg?h=a5e27fc81f802844567d01e477fd4820",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/a7629ca9-741a-4178-b0aa-ffa5a60e9925_rw_1920.jpg?h=fc3ed49d6e3c213c08e03c445f288d8a",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/33caf460-0aa8-4de2-a7bf-2c9e4014e817_rw_3840.jpg?h=7858c599a617a270c0867dcd10b46457",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/d09aa2c6-72fd-4cfc-86c6-7dafe1ae7423_rw_3840.gif?h=62100b6671994f367725f09e9d9cccd9",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/a58a2adf-2531-44f3-b274-a6bfff942992_rw_3840.jpg?h=e77cbf39fb3f6aa15e99bb07877ccaa0",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/6c948ba4-2def-4c29-8ec4-64d81cd2cdf8_rw_3840.jpg?h=2884b88a0901be06b65cc3eaece71b78",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/e618c477-ee74-4ca1-88fb-fe7ecda7cc62_rw_3840.jpg?h=05fadc96728648ab63becfcc56aeb313",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/b2550fbb-ef04-472e-a9a3-b2013420ee44_rw_3840.jpg?h=19dea44209d188348de98ed098d230d9"
+    ],
+    "texts": [
+      "Image Retouching & Manipulation for SHAZ\u00c9"
+    ]
+  },
+  {
+    "name": "CloudPop: Women's Wellness Gummies",
+    "url": "https://mrpentool.com/cloudpop-packaging-design-for-womens-wellness-gummies",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/4ca2f4e8-a3ed-4578-8ac9-4f0e5d84e6c7_rw_3840.jpg?h=614000f881aae416099ed00a5b1e9934",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/43c40222-d549-43f0-b805-c01ac11f9a0c_rw_3840.jpg?h=dbb9f5e3bbd19a5340ffb85a6ad64207",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/46bca771-0b9e-41bc-927f-279367694f32_rw_3840.jpg?h=fce30369a881cf2336787f847591a10e",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/98e23d34-6a08-402e-bc12-f78214f8597e_rw_3840.jpg?h=a9adccfb8e36a75aa34974fd24f206c1",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/5e47a886-7ed5-4327-bc25-733b7b8883e5_rw_3840.jpg?h=16377c0b15fbb6f577f257cb04bfc9b8",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/ddf1c22e-cfa0-40aa-b77b-109826ee13d9_rw_3840.jpg?h=0183adea120ad4225a2d1678b2047286",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/f982e538-e381-4354-8815-ef12d4a4e908_rw_3840.jpg?h=6e52b8be0ca70bc7cf88a29123278b69",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/38258089-8baf-4101-8d7c-7ae8f45250c4_rw_3840.jpg?h=ab7a62f14869291126a95a2830b9b2f2"
+    ],
+    "texts": [
+      "CloudPop: Packaging Design for Women\u2019s Wellness Gummies",
+      "CloudPop is a whimsical packaging design concept for a menstrual wellness gummy brand.\nDesigned to make \"that time of the month\" feel lighter\u2014visually and emotionally\u2014this project blends playful illustration, vibrant color schemes, and functional clarity.\n\nThis case study features:\n\nBold, feminine packaging in magenta and cream tones\n\nIllustrated characters that guide product usage\n\nClean supplement facts and ingredient highlights\n\n3D renders optimized for eCommerce and shelf appeal"
+    ]
+  },
+  {
+    "name": "Sushi Zen \u2013 Minimalist Japanese Sushi Brand",
+    "url": "https://mrpentool.com/sushi-zen-minimalist-japanese-sushi-brand-nyc",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/0729abc6-e47d-4c21-933f-d5991c67852a_rw_1920.png?h=b7d3510443751e03c27603a1055a80ae",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/e51205e5-1cbb-462b-9d54-e2ad62921ad6_rw_1920.png?h=b9a63c33ae14e8a81010f12015690e1f",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/e8f6fe58-b323-45f3-b0be-a86ddda34262_rw_1920.png?h=f5589d0ae1cb6aceb0aca99bc70eaa09",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/ad7ab8f4-59b7-4b16-9e2a-c2b2e3ab9391_rw_1200.png?h=e5d3ae1135cfba48e7240639a0603f4c",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/8212fa3f-2ea6-4c98-92c9-36d32dfcd579_rw_1200.png?h=51d393c385363d48f1e8b40ad175684f",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/6ccd25dd-7dd8-4429-8065-52a59ae87122_rw_1920.png?h=5a0a163c07c98bf05fdf9b641f484fab",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/fc12affb-655f-4d1c-98f0-01fe49284630_rw_1920.png?h=f0996a541a43aae26a474a971cb9e9dd",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/6e3ed691-248e-4349-b7fe-779269f9202b_rw_1920.png?h=7e2b4a369f4f29470a82bfcf8f8ad9c5",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/2e22c9ca-48d4-4d77-8bd1-e795d3c77706_rw_1920.png?h=52f34a13ff52af2ae2540789940b5626",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/ef325b6d-a93e-45ff-a142-1d2db511c2d4_rw_1200.png?h=afc49114faab00cae2192390e0fd085e",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/7b0d66c6-5cd6-45d2-9815-fcec39ca41c4_rw_1200.png?h=7405e3236e5461493e77facb55107099",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/f976b344-94c9-4a94-95eb-3a13fc2fae6a_rw_1920.png?h=9bff48087b234ade5c66798b753a9671",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/b3ca1588-c934-47fd-a21a-1db70a84b53b_rw_1920.png?h=07e728c9df519542b455020efe998a32",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/511d0921-590e-4c2b-baff-9d9912bad667_rw_1200.png?h=abfe62971df71835d72b12eca71e698f",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/2ac62169-b77d-4e3d-9552-60e23e470e41_rw_1200.png?h=a65fae6ec12a0facb64611330df6e871"
+    ],
+    "texts": [
+      "Sushi Zen \u2013 Minimalist Japanese Sushi Brand, NYC",
+      "Sushi Zen is a modern sushi brand in New York that blends Japanese tradition with contemporary minimalism. The brand identity features clean typography, subtle wave patterns, and hand-drawn fish illustrations, creating a refined yet inviting atmosphere. The color palette of warm beige and deep red reflects authenticity and sophistication. The storefront design incorporates frosted glass branding with soft evening lighting, enhancing the Zen-inspired ambiance. Packaging and marketing materials maintain a sleek and cohesive aesthetic, ensuring a premium dining experience. Sushi Zen is more than a sushi brand it is a celebration of craftsmanship harmony and authenticity."
+    ]
+  },
+  {
+    "name": "Allagitek: High-End AI Branding",
+    "url": "https://mrpentool.com/allagitek-minimalist-high-end-ai-branding",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/e2291790-387c-42b1-ad09-7a9a6fe5e59e_rw_3840.png?h=4e229f74c39ad5a215d03ff3430dd2d1",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/9f3d3cb9-ebf4-4adc-9615-91a3327c1a87_rw_3840.png?h=e48b30eabc713309e969ae1e44d80d34",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/e6b06d39-4209-400e-b69c-549d58f9eb5c_rw_3840.png?h=df97960c6a2afe1b2ebc85769f3080d7",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/dd895078-3a83-4590-a494-466358cde1b7_rw_3840.png?h=db0f012b04e3a234c4ec504714cfcb4c",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/eb5d3b7f-b4f0-47bd-8bca-c36cc98a6ff5_rw_3840.png?h=3e8108d97bff78b0586d49b3ef2bd4c2",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/19699848-d984-4519-b710-fce7e64d685e_rw_3840.png?h=8abb95d104290f134f6b88b387b41064",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/cfb34197-270e-4498-be6e-e1f9881d46b8_rw_3840.png?h=0889fa4d772583ff84d3e801aafb2a9c",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/f625445c-4f15-4241-8cc9-fda34f42f9eb_rw_3840.png?h=1fb47ab3d1c4cc0298167ea37780954e",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/1592d936-e280-4a63-abf0-6f825defc9c1_rw_3840.png?h=b29a4967fe5689b9165171c56f1d515a",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/ac1f49d1-1d7c-42c1-b269-578eedb52541_rw_3840.png?h=d372e477c0ecb05246b5321349085af9",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/a438b5c2-0e12-4fbe-b4b4-5e61d2c70f53_rw_3840.png?h=deb845a306ee4837b788c13fea3b8725",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/7f5dbbfd-b74b-4b86-885f-d296a526366d_rw_3840.png?h=16939c54396b560201d64cf1243bad0a",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/a8154396-2c95-47e4-9091-456f246a48f7_rw_3840.png?h=9efbe784f0d7d393c544e8c032975990",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/025adfff-0e14-4534-b3b3-bea8ab9f9263_rw_3840.png?h=3c8b1daf495008a9e75ffc75dedb55bb",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/94700d93-cb9f-431f-9be1-04e30045894f_rw_3840.png?h=b78611d575d96a54c9697a0c0ad4fc1a"
+    ],
+    "texts": [
+      "Allagitek: Minimalist & High-End AI Branding",
+      "A strong brand design is essential for AI-driven businesses to stand out. For Allagitek, an AI boutique firm, we crafted a sleek, high-end logo design and identity that blends innovation, luxury, and precision.\n\n\ud83d\udd39 What We Did:\n\u2714\ufe0f Minimalist Logo Design \u2013 A refined emblem reflecting AI\u2019s brilliance\n\u2714\ufe0f Premium Brand Design \u2013 Sophisticated visuals for an exclusive appeal\n\u2714\ufe0f Luxury Typography & Colors \u2013 Enhancing trust and innovation\n\u2714\ufe0f Cohesive Visual Identity \u2013 Strong recognition across digital and print\n\nThis rebrand positions Allagitek as a leader in AI branding, setting a new standard for tech branding and innovation."
+    ]
+  },
+  {
+    "name": "Potapop Chips Canister: Packaging Design",
+    "url": "https://mrpentool.com/potapop-chips-canister-packaging-design",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/f48622b9-1b84-4036-bfe7-3c94fa104666_rw_3840.jpg?h=c3fc1e94775a4edc6e964f9037466e8a",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/57bad26b-c0b1-4fa0-a424-ccf9bf85a283_rw_1920.jpg?h=67480457b6b3342f6ebab82b11f75e5d",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/50473130-3e3c-44ff-bcca-d484f3772fdb_rw_1920.jpg?h=66d190698aff790e30ea6f3e7cfbaa6f",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/15ff7685-faf6-4542-baf6-8306edd56e36_rw_1920.jpg?h=f6236c846b91d7a77c2ff03dd358f434"
+    ],
+    "texts": [
+      "Potapop Chips Canister: Packaging Design",
+      "The Potapop chips canister showcases vibrant packaging with a fun and creative design. Featuring \"Potato Pete,\" the quirky mascot, this branding captures attention with bold colors and engaging illustrations. Originally planned with unique designs for each flavor, this launch focuses on one standout variant to hit the market fast. Potapop\u2019s resealable, premium canister not only protects freshness but also makes the snack a visually irresistible choice for chips lovers."
+    ]
+  },
+  {
+    "name": "Logofolio",
+    "url": "https://mrpentool.com/logofolio",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/878a1b50-104c-4bfe-919c-230dd6806085_rw_1200.jpg?h=18ab959d359c0bea0130be1e6940fc2b",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/d0024596-6279-46f7-877c-7b257b0970fc_rw_1200.jpg?h=ee600f57b7bc6f374a685bb2601fcb47",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/1a9e93ba-db57-4176-a711-c30a9602868d_rw_1200.jpg?h=6f3f241136b5abbe3d30e5cf7fac9ca3",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/9837ccb2-cc5f-4e4f-af73-3fb98dd5b3c4_rw_1200.jpg?h=f269418f316ad9c6789097c8c75ab6d8",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/e030214a-2ea3-4b3b-a37e-25d97084e2ea_rw_1200.jpg?h=893522e439b5e820e6d2a501b846d7ce",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/bbd4b156-ea6c-462b-b56a-c9be45dc6108_rw_1200.jpg?h=bf65af3b9585f0f72a600e7691bd132e",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/846bdece-1232-4513-b8d3-38de6a8b925a_rw_1200.jpg?h=58b86795a44edfb4389834d1663295dc",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/edd6d98b-820f-4bb9-83a2-41d2a13c5bb8_rw_1200.jpg?h=054136602891cd715fb1e55add6e131a"
+    ],
+    "texts": []
+  },
+  {
+    "name": "Upside Logo Evolution",
+    "url": "https://mrpentool.com/upside-logo-evolution",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/39e3a308-3daa-4a9a-84dd-f43c3ec282ed_rw_1920.png?h=ab392d9beb3d8ac0924fd3f77933bd3e",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/9917466c-8fa3-4c8f-b026-45b8e0bf7e2d_rw_1920.png?h=c184c88a505db1d543f9e1c5bb8c734c",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/4fe5caf7-97e3-4cba-9e45-cbb4a60cdc93_rw_1920.png?h=abb865a413855d1ec44f69496a2c3165",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/48f9b639-b8ff-43c9-95c9-d1d2e418c61b_rw_1920.png?h=241e06b7af33b0e3795e109f1fdc4c3c",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/ed1541ee-ccee-443a-a5a7-0bfe591995a9_rw_1920.png?h=1a13abbb5da8496c0ed6deb5d83c0712",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/d44dcd98-0385-4736-86c3-8827c30b0907_rw_1920.png?h=cab9eaf81cc9a2904fe99d3257f8667c",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/02b4ddbe-bb60-4d9d-ae5f-031210c73b29_rw_1920.png?h=fe5dad950d8201d774c9fddba242b84e",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/5371bf79-c106-4580-8c52-0b5bb7f6e64b_rw_1920.png?h=29c544678842d2ff8b70f2e3b83ed411",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/4bc71d0a-d0c9-4469-80ee-c95a1775567e_rw_1920.png?h=41f875f73962b10cbc5785431d3e0282",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/70e08039-a366-4f7f-a296-b59305d23411_rw_1920.png?h=cb93125a63dcc7e0c783edeb6dd63bef",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/c95d9c1a-a889-4c47-8ece-69d71caa8283_rw_1920.png?h=574a9a444b46439970bc61309c21780b",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/4ba54ec9-1db5-4a03-8ff6-b2a2f9919e48_rw_1920.png?h=2b600ed297e26fb80a3c31aacafb31bf",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/7e4fc7aa-fb18-4d47-8fcc-07e030e9b98f_rw_1920.png?h=80baad14077a458bfa9dae7ac3af4383",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/e3dee350-9f78-4eef-9310-55308ea4e49d_rw_1920.png?h=5f044b25d28a8acfd0a22a2d26d277fa",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/c8a3494f-cae2-4853-8428-eb898f8c4f01_rw_1920.png?h=3fd50df0cd3ce515be85a81591c90aea",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95a013be-b260-4345-94c2-0a298b394371_rw_1920.png?h=6af9a2ae1d4b3b91dd981fee9f1fa278",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/2738a88f-64b3-45ef-b454-f7ff31afd37a_rw_1920.png?h=8bcf2bfc7d916f4185d66122a9e3574a"
+    ],
+    "texts": [
+      "Upside Logo Evolution"
+    ]
+  },
+  {
+    "name": "Animated Icons for Tromdel",
+    "url": "https://mrpentool.com/animated-icons-for-tromdel",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/a6bcbff3-f83f-4e34-a054-cd2c3c2ef670_rw_1920.gif?h=823f4699a8bafee1f04f3d001abac016",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/b1a158f6-73de-45b1-943d-b87b4cc6c578_rw_1920.jpeg?h=03a8772eb8e7522bec60186524b80573",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/ec20d4c9-b8f5-4dd9-a642-26ae4db5faef_rw_1920.jpeg?h=6da8fc9649a55a7f090f77da6e440426"
+    ],
+    "texts": [
+      "Animated Icons for Tromdel"
+    ]
+  },
+  {
+    "name": "Social Media Posts for Pulsehound",
+    "url": "https://mrpentool.com/social-media-posts-for-pulsehound",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/c8107d3b-f4c7-4c93-ae29-93ee6904c35a_rw_1920.jpg?h=7f09da824c33bf942534bbc3ec344200"
+    ],
+    "texts": [
+      "Social Media Posts for Pulsehound"
+    ]
+  },
+  {
+    "name": "Vibrant TangyO Cereal Packaging Design",
+    "url": "https://mrpentool.com/vibrant-tangyo-cereal-packaging-design",
+    "images": [
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/95b73a47-cfd6-44e3-83d4-10197dcaab9e_rwc_0x0x67x150x4096.png?h=e90a5bd6d87814cc1a73b9c6a395ccde",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/aeb0c1bd-ed4c-44b5-aa81-cdab06bc88ee_rw_1920.png?h=878dec8adc9757373728822f9b44f955",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/ee60a7d1-6528-4323-a831-76f7d5679dba_rw_1920.png?h=bbfbe2b969a29787c8f406e8b86d8cfa",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/687d4488-57a2-43d1-bdcf-2525d0dba139_rw_1920.png?h=c2feff32fd44bf79441beb6561f601a4",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/beee9dbd-eba8-47ad-9ae5-c75a2f287076_rw_1920.png?h=31e31c158d3e876629b30ecd92c92b6b",
+      "https://cdn.myportfolio.com/cab04b9d-1c52-4abe-a200-dd61b18987b2/29962433-2dae-445d-8d7b-dd3c15f71392_rw_1920.png?h=ec7b9b70d64db19761134d7e6912ef8c"
+    ],
+    "texts": [
+      "Vibrant TangyO Cereal Packaging Design"
+    ]
+  }
+]
