@@ -1,149 +1,165 @@
 <!DOCTYPE html>
-
 <html lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Get a Quote | House of Pentool</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "primary": "#259df4",
-                        "background-light": "#f5f7f8",
-                        "background-dark": "#101a22",
-                    },
-                    fontFamily: {
-                        "display": ["Plus Jakarta Sans"]
-                    },
-                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    "primary": "#e91e8c",
+                    "accent-lime": "#ccff00",
+                    "accent-blue": "#00d4ff",
+                    "accent-coral": "#ff4d4d",
+                    "background-light": "#f5f5f0",
                 },
+                fontFamily: { "display": ["Plus Jakarta Sans", "sans-serif"] },
             },
-        }
-    </script>
+        },
+    }
+</script>
 <style>
-        .custom-select-icon {
-            background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(37,157,244)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e');
-            background-repeat: no-repeat;
-            background-position: right 1rem center;
-            appearance: none;
-        }
-    </style>
+    .neo-brutalism { box-shadow: 12px 12px 0px 0px rgba(0,0,0,1); border: 4px solid black; }
+    .neo-brutalism-sm { box-shadow: 6px 6px 0px 0px rgba(0,0,0,1); border: 3px solid black; }
+    input, select, textarea {
+        border: 3px solid black !important;
+        border-radius: 0 !important;
+        font-weight: 700;
+    }
+    input:focus, select:focus, textarea:focus {
+        outline: none !important;
+        box-shadow: 4px 4px 0 0 black !important;
+    }
+</style>
 </head>
-<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased overflow-x-hidden">
+<body class="bg-background-light font-display text-slate-900 overflow-x-hidden">
 <div class="relative flex min-h-screen w-full flex-col">
+
 <!-- Navigation -->
-<header class="sticky top-0 z-50 w-full border-b border-primary/10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md px-6 lg:px-20 py-4">
-<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 md:gap-0 py-2 md:py-0">
-<a class="flex items-center gap-3" href="index.html"><img src="Logo.svg" alt="House of Pentool Logo" class="h-10 w-auto object-contain"><h2 class="text-xl font-extrabold tracking-tighter uppercase">HOUSE OF<br class="block md:hidden"/>PENTOOL</h2></a>
-<nav class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 my-4 md:my-0 gap-10">
-<a class="text-sm font-semibold hover:text-primary transition-colors" href="index.html">Home</a>
-<a class="text-sm font-semibold hover:text-primary transition-colors" href="portfolio.html">Portfolio</a>
-<a class="text-sm font-semibold hover:text-primary transition-colors" href="services.html">Services</a>
-<a class="text-sm font-semibold hover:text-primary transition-colors" href="process.html">Process</a>
-</nav>
-<a class="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-lg font-bold text-sm tracking-wide transition-all shadow-lg shadow-primary/20" href="contact.html">Get Started</a>
-</div>
+<header class="sticky top-0 z-50 w-full border-b-4 border-black bg-primary px-6 py-4 md:px-20">
+  <div class="mx-auto flex flex-col md:flex-row max-w-7xl items-center justify-between gap-6 md:gap-0 py-2 md:py-0">
+    <a class="flex items-center gap-3 hover:opacity-80 transition-opacity" href="index.html">
+      <img src="Logo.svg" alt="House of Pentool Logo" class="h-10 w-auto object-contain">
+      <h2 class="text-2xl font-black tracking-tighter text-black uppercase">HOUSE OF<br class="block md:hidden"/>PENTOOL</h2>
+    </a>
+    <nav class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 my-4 md:my-0">
+      <a class="text-sm font-black uppercase tracking-widest text-black hover:underline underline-offset-4" href="portfolio.html">Work</a>
+      <a class="text-sm font-black uppercase tracking-widest text-black hover:underline underline-offset-4" href="services.html">Services</a>
+      <a class="text-sm font-black uppercase tracking-widest text-black hover:underline underline-offset-4" href="process.html">Process</a>
+    </nav>
+    <a class="neo-brutalism-sm bg-accent-lime px-6 py-2 text-sm font-black uppercase text-black transition-transform duration-300 hover:-translate-y-1 hover:rotate-2 hover:scale-105 inline-block" href="contact.html">Get Started</a>
+  </div>
 </header>
+
 <main class="flex-1 flex flex-col lg:flex-row">
-<!-- Left Side: Bold Visuals & Content -->
-<div class="w-full lg:w-1/2 bg-primary flex flex-col justify-center p-8 lg:p-24 relative overflow-hidden">
-<div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-[500px] h-[500px] bg-white/10 rounded-full blur-3xl"></div>
-<div class="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-[400px] h-[400px] bg-black/10 rounded-full blur-3xl"></div>
-<div class="relative z-10 space-y-8">
-<div class="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full backdrop-blur-sm text-white text-xs font-bold tracking-widest uppercase">
-<span class="flex h-2 w-2 rounded-full bg-white animate-pulse"></span>
-                        Accepting New Projects
-                    </div>
-<h1 class="text-6xl lg:text-8xl font-black text-white leading-none tracking-tighter">
-                        LET'S BUILD <br/>SOMETHING <br/><span class="text-slate-900">BOLD.</span>
-</h1>
-<p class="text-white/80 text-xl max-w-md font-medium leading-relaxed">
-                        Ready to elevate your brand beyond the ordinary? Drop us a line and let's turn your vision into a digital powerhouse.
-                    </p>
-<div class="pt-8 flex flex-col gap-6">
-<div class="flex items-center gap-4 text-white">
-<div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center border border-white/20">
-<span class="material-symbols-outlined">alternate_email</span>
-</div>
-<div>
-<p class="text-xs font-bold uppercase tracking-widest opacity-60">Email Us</p>
-<p class="text-lg font-bold">hello@pentool.studio</p>
-</div>
-</div>
-<div class="flex items-center gap-4 text-white">
-<div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center border border-white/20">
-<span class="material-symbols-outlined">explore</span>
-</div>
-<div>
-<p class="text-xs font-bold uppercase tracking-widest opacity-60">Located In</p>
-<p class="text-lg font-bold">San Francisco, CA</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Right Side: Minimal Form -->
-<div class="w-full lg:w-1/2 flex items-center justify-center p-8 lg:p-24 bg-background-light dark:bg-background-dark">
-<div class="w-full max-w-md space-y-10">
-<div class="space-y-2">
-<h3 class="text-3xl font-black tracking-tight">Project Details</h3>
-<p class="text-slate-500 dark:text-slate-400 font-medium">Briefly tell us what you have in mind.</p>
-</div>
-<form class="space-y-6">
-<div class="space-y-2">
-<label class="text-sm font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Full Name</label>
-<input class="w-full bg-white dark:bg-slate-800/50 border-2 border-slate-200 dark:border-slate-800 rounded-xl px-6 py-4 focus:ring-0 focus:border-primary outline-none text-lg transition-all placeholder:text-slate-300 dark:placeholder:text-slate-600 font-medium" placeholder="John Doe" type="text"/>
-</div>
-<div class="space-y-2">
-<label class="text-sm font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Email Address</label>
-<input class="w-full bg-white dark:bg-slate-800/50 border-2 border-slate-200 dark:border-slate-800 rounded-xl px-6 py-4 focus:ring-0 focus:border-primary outline-none text-lg transition-all placeholder:text-slate-300 dark:placeholder:text-slate-600 font-medium" placeholder="john@example.com" type="email"/>
-</div>
-<div class="space-y-2">
-<label class="text-sm font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Project Type</label>
-<select class="custom-select-icon w-full bg-white dark:bg-slate-800/50 border-2 border-slate-200 dark:border-slate-800 rounded-xl px-6 py-4 focus:ring-0 focus:border-primary outline-none text-lg transition-all font-medium text-slate-500">
-<option disabled="" selected="" value="">What are we building?</option>
-<option value="branding">Brand Identity</option>
-<option value="uiux">UI/UX Design</option>
-<option value="dev">Web Development</option>
-<option value="other">Something Else</option>
-</select>
-</div>
-<div class="space-y-2">
-<label class="text-sm font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Tell us more</label>
-<textarea class="w-full bg-white dark:bg-slate-800/50 border-2 border-slate-200 dark:border-slate-800 rounded-xl px-6 py-4 focus:ring-0 focus:border-primary outline-none text-lg transition-all placeholder:text-slate-300 dark:placeholder:text-slate-600 font-medium resize-none" placeholder="Briefly describe your goals..." rows="4"></textarea>
-</div>
-<button class="w-full bg-slate-900 dark:bg-primary text-white py-6 rounded-xl font-black text-xl tracking-wide hover:scale-[1.02] active:scale-[0.98] transition-all shadow-2xl shadow-slate-900/20 dark:shadow-primary/20 flex items-center justify-center gap-3" type="submit">
-                            SEND PROPOSAL
-                            <span class="material-symbols-outlined">arrow_forward</span>
-</button>
-</form>
-<p class="text-center text-slate-400 text-sm font-medium">
-                        Typically responds within 24 hours.
-                    </p>
-</div>
-</div>
+
+  <!-- Left Panel -->
+  <div class="w-full lg:w-1/2 bg-black flex flex-col justify-center px-8 lg:px-24 py-20 relative overflow-hidden">
+    <div class="absolute top-0 right-0 opacity-10 pointer-events-none select-none leading-none font-black text-[200px] uppercase text-white">GO</div>
+    <div class="relative z-10 space-y-10">
+      <div class="inline-block bg-accent-lime text-black px-4 py-2 text-xs font-black uppercase tracking-widest border-2 border-accent-lime">
+        ● Accepting New Projects
+      </div>
+      <h1 class="text-6xl lg:text-8xl font-black text-white leading-none tracking-tighter uppercase">
+        LET'S BUILD<br/>SOMETHING<br/><span class="text-accent-lime">BOLD.</span>
+      </h1>
+      <p class="text-slate-300 text-xl max-w-md font-bold leading-relaxed">
+        Ready to elevate your brand? Drop us a line and let's turn your vision into something that commands attention.
+      </p>
+      <div class="flex flex-col gap-6 pt-4">
+        <div class="flex items-center gap-5">
+          <div class="w-14 h-14 bg-primary border-3 border-white flex items-center justify-center neo-brutalism-sm">
+            <span class="material-symbols-outlined text-white">alternate_email</span>
+          </div>
+          <div>
+            <p class="text-xs font-black uppercase tracking-widest text-slate-400">Email Us</p>
+            <p class="text-lg font-black text-white">hello@pentool.studio</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-5">
+          <div class="w-14 h-14 bg-accent-lime border-3 border-black flex items-center justify-center neo-brutalism-sm">
+            <span class="material-symbols-outlined text-black">explore</span>
+          </div>
+          <div>
+            <p class="text-xs font-black uppercase tracking-widest text-slate-400">Located In</p>
+            <p class="text-lg font-black text-white">New Delhi, India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right Panel: Form -->
+  <div class="w-full lg:w-1/2 flex items-start justify-center px-8 lg:px-24 py-20 bg-background-light">
+    <div class="w-full max-w-md">
+      <div class="mb-10">
+        <div class="inline-block bg-primary text-white px-4 py-1 text-xs font-black uppercase tracking-widest mb-4">Get a Quote</div>
+        <h3 class="text-4xl font-black uppercase tracking-tighter">Project Details</h3>
+        <p class="font-bold text-slate-500 mt-2">Tell us what you have in mind.</p>
+      </div>
+      <form class="flex flex-col gap-6">
+        <div class="flex flex-col gap-2">
+          <label class="text-xs font-black uppercase tracking-wider">Full Name</label>
+          <input class="w-full bg-white px-5 py-4 text-lg font-bold placeholder:text-slate-300" placeholder="Your Name" type="text"/>
+        </div>
+        <div class="flex flex-col gap-2">
+          <label class="text-xs font-black uppercase tracking-wider">Email Address</label>
+          <input class="w-full bg-white px-5 py-4 text-lg font-bold placeholder:text-slate-300" placeholder="you@brand.com" type="email"/>
+        </div>
+        <div class="flex flex-col gap-2">
+          <label class="text-xs font-black uppercase tracking-wider">Service Needed</label>
+          <select class="w-full bg-white px-5 py-4 text-lg font-bold">
+            <option value="">Select a service...</option>
+            <option>Packaging Design</option>
+            <option>Brand Identity</option>
+            <option>Structural Prototyping</option>
+            <option>Sustainable Solutions</option>
+            <option>Full Brand Launch</option>
+          </select>
+        </div>
+        <div class="flex flex-col gap-2">
+          <label class="text-xs font-black uppercase tracking-wider">Budget Range</label>
+          <select class="w-full bg-white px-5 py-4 text-lg font-bold">
+            <option value="">Select a budget...</option>
+            <option>Under ₹50,000</option>
+            <option>₹50k – ₹1.5L</option>
+            <option>₹1.5L – ₹5L</option>
+            <option>₹5L+</option>
+          </select>
+        </div>
+        <div class="flex flex-col gap-2">
+          <label class="text-xs font-black uppercase tracking-wider">Project Brief</label>
+          <textarea class="w-full bg-white px-5 py-4 text-lg font-bold placeholder:text-slate-300 resize-none" placeholder="Tell us about your project, goals, and timeline..." rows="5"></textarea>
+        </div>
+        <button type="submit" class="neo-brutalism bg-primary text-white px-8 py-5 text-xl font-black uppercase tracking-widest hover:-translate-y-1 hover:scale-105 transition-transform duration-300 w-full text-center">
+          Send It ↗
+        </button>
+      </form>
+    </div>
+  </div>
+
 </main>
-<!-- Minimal Footer -->
-<footer class="bg-background-light dark:bg-background-dark border-t border-slate-100 dark:border-slate-800 px-6 lg:px-20 py-12">
-<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
-<div class="flex items-center gap-2 opacity-50 grayscale">
-<img src="Logo.svg" alt="House of Pentool Logo" class="h-10 w-auto object-contain">
-<span class="text-xs font-bold uppercase tracking-tighter">House of Pentool</span>
-</div>
-<div class="flex gap-8">
-<a class="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-primary transition-colors" href="#">Dribbble</a>
-<a class="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-primary transition-colors" href="#">Instagram</a>
-<a class="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-primary transition-colors" href="#">LinkedIn</a>
-</div>
-<p class="text-xs font-medium text-slate-400 tracking-wide">
-                    © 2024 House of Pentool. All rights reserved.
-                </p>
+
+<!-- Footer -->
+<footer class="bg-white px-6 py-12 md:px-20 border-t-4 border-black">
+<div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-12 md:flex-row">
+  <a href="index.html" class="flex items-center gap-4 hover:opacity-80 transition-opacity">
+    <img src="Logo.svg" alt="House of Pentool Logo" class="h-10 w-auto object-contain">
+    <span class="text-4xl font-black tracking-tighter uppercase">House of Pentool</span>
+  </a>
+  <div class="flex gap-6">
+    <a class="h-12 w-12 flex items-center justify-center border-2 border-black neo-brutalism-sm bg-accent-lime hover:-translate-y-1 transition-transform" href="#"><span class="material-symbols-outlined text-black">language</span></a>
+    <a class="h-12 w-12 flex items-center justify-center border-2 border-black neo-brutalism-sm bg-accent-coral hover:-translate-y-1 transition-transform" href="#"><span class="material-symbols-outlined text-black">share</span></a>
+    <a class="h-12 w-12 flex items-center justify-center border-2 border-black neo-brutalism-sm bg-accent-blue hover:-translate-y-1 transition-transform" href="#"><span class="material-symbols-outlined text-black">alternate_email</span></a>
+  </div>
+  <p class="text-sm font-black uppercase tracking-widest opacity-60">© 2024 House of Pentool. All Rights Unboxed.</p>
 </div>
 </footer>
+
 </div>
 </body></html>

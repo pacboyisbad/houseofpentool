@@ -1,252 +1,213 @@
 <!DOCTYPE html>
-
-<html class="light" lang="en"><head>
+<html lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Services | House of Pentool</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "primary": "#259df4",
-                        "background-light": "#f5f7f8",
-                        "background-dark": "#101a22",
-                    },
-                    fontFamily: {
-                        "display": ["Plus Jakarta Sans"]
-                    },
-                    borderRadius: {"DEFAULT": "0rem", "lg": "0rem", "xl": "0rem", "full": "9999px"},
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    "primary": "#e91e8c",
+                    "accent-lime": "#ccff00",
+                    "accent-blue": "#00d4ff",
+                    "accent-coral": "#ff4d4d",
+                    "accent-yellow": "#f9e000",
+                    "background-light": "#f5f5f0",
                 },
+                fontFamily: { "display": ["Plus Jakarta Sans", "sans-serif"] },
             },
-        }
-    </script>
+        },
+    }
+</script>
 <style>
-        .neobrutal-shadow {
-            box-shadow: 8px 8px 0px 0px #000;
-        }
-        .neobrutal-border {
-            border: 4px solid #000;
-        }
-        .neobrutal-card-hover:hover {
-            transform: translate(-4px, -4px);
-            box-shadow: 12px 12px 0px 0px #000;
-        }
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-        }
-    </style>
+    .neo-brutalism { box-shadow: 12px 12px 0px 0px rgba(0,0,0,1); border: 4px solid black; }
+    .neo-brutalism-sm { box-shadow: 6px 6px 0px 0px rgba(0,0,0,1); border: 3px solid black; }
+</style>
 </head>
-<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display">
-<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<body class="bg-background-light font-display text-slate-900 overflow-x-hidden">
+<div class="relative flex min-h-screen w-full flex-col">
+
 <!-- Navigation -->
-<header class="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0  border-b-4 border-black bg-white px-6 md:px-20 py-5 sticky top-0 z-50">
-<a class="flex items-center gap-3 hover:opacity-80 transition-opacity" href="index.html">
-<img src="Logo.svg" alt="House of Pentool Logo" class="h-10 w-auto object-contain">
-<h2 class="text-2xl font-black uppercase tracking-tighter">HOUSE OF<br class="block md:hidden"/>PENTOOL</h2>
-</a>
-<div class="flex flex-wrap justify-center flex-1 justify-end gap-10 items-center">
-<nav class="flex flex-col md:flex-row items-center gap-4 md:gap-8 my-4 md:my-0 gap-8">
-<a class="text-base font-extrabold uppercase hover:underline decoration-4 underline-offset-4" href="services.html">Services</a>
-<a class="text-base font-extrabold uppercase hover:underline decoration-4 underline-offset-4" href="portfolio.html">Work</a>
-<a class="text-base font-extrabold uppercase hover:underline decoration-4 underline-offset-4" href="process.html">Process</a>
-</nav>
-<a class="neobrutal-border neobrutal-shadow bg-primary px-6 py-2 text-white font-black uppercase transition-all active:translate-x-1 active:translate-y-1 active:shadow-none inline-block" href="contact.html">
-                Get a Quote
-            </a>
-</div>
+<header class="sticky top-0 z-50 w-full border-b-4 border-black bg-primary px-6 py-4 md:px-20">
+  <div class="mx-auto flex flex-col md:flex-row max-w-7xl items-center justify-between gap-6 md:gap-0 py-2 md:py-0">
+    <a class="flex items-center gap-3 hover:opacity-80 transition-opacity" href="index.html">
+      <img src="Logo.svg" alt="House of Pentool Logo" class="h-10 w-auto object-contain">
+      <h2 class="text-2xl font-black tracking-tighter text-black uppercase">HOUSE OF<br class="block md:hidden"/>PENTOOL</h2>
+    </a>
+    <nav class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 my-4 md:my-0">
+      <a class="text-sm font-black uppercase tracking-widest text-black hover:underline underline-offset-4" href="portfolio.html">Work</a>
+      <a class="text-sm font-black uppercase tracking-widest text-black underline underline-offset-4" href="services.html">Services</a>
+      <a class="text-sm font-black uppercase tracking-widest text-black hover:underline underline-offset-4" href="process.html">Process</a>
+    </nav>
+    <a class="neo-brutalism-sm bg-accent-lime px-6 py-2 text-sm font-black uppercase text-black transition-transform duration-300 hover:-translate-y-1 hover:rotate-2 hover:scale-105 inline-block" href="contact.html">Get Started</a>
+  </div>
 </header>
+
 <main class="flex-1">
-<!-- Hero Section -->
-<section class="border-b-4 border-black bg-yellow-400 p-6 md:p-20">
-<div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 items-center">
-<div class="flex-1 space-y-8">
-<span class="bg-black text-white px-4 py-1 text-sm font-bold uppercase tracking-widest inline-block">Our Expertise</span>
-<h1 class="text-6xl md:text-8xl font-black leading-[0.9] uppercase tracking-tighter">
-                        We Stop the <span class="text-white drop-shadow-[4px_4px_0px_rgba(0,0,0,1)]">Scroll.</span><br/>
-                        We Win the <span class="bg-primary text-white px-2">Shelf.</span>
-</h1>
-<p class="text-xl md:text-2xl font-bold max-w-xl border-l-8 border-black pl-6 py-2">
-                        High-energy visual systems, fearless structural design, and packaging that speaks louder than the competition.
-                    </p>
-</div>
-<div class="flex-1 w-full">
-<div class="neobrutal-border neobrutal-shadow bg-white aspect-square overflow-hidden rotate-2 hover:rotate-0 transition-transform">
-<img alt="Bold vibrant product packaging design showcase" class="w-full h-full object-cover" data-alt="Vibrant neon pink and yellow product packaging design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTGvLv4zA1aYEGs6GjOoPI9HbeAWUhOEeN0tx7NLiS9QiVAMQW9VDlfTfEAW4ptTkfkRY_jOyAOUIDoG5SS_dO4a2Kubs0JYJdfhiku55GFXAF_4XRqKDvZt5fmgP9uvGIdwCnnKSrNb7b23UIETA1mKzuD8jjgmZ1zd4qcXG6QsntrQrCEq_186eJEbtcA0Un8Gzh79DvdP3l-SyAYb2ejDU9B9H_Q3dKhtIz4tI538MT0FkWMfOYGsmeDFmjs_b0u6cECOYfmjry"/>
-</div>
-</div>
-</div>
-</section>
-<!-- Services Grid -->
-<section class="p-6 md:p-20 bg-background-light">
-<div class="max-w-7xl mx-auto">
-<div class="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
-<h2 class="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none">The Arsenal</h2>
-<p class="max-w-sm font-bold text-lg">Four core pillars of design designed to disrupt, dominate, and deliver.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-<!-- Packaging Design -->
-<div class="neobrutal-border neobrutal-shadow bg-white p-8 flex flex-col gap-6 neobrutal-card-hover transition-all">
-<div class="flex justify-between items-start">
-<span class="material-symbols-outlined text-6xl text-primary">package_2</span>
-<span class="font-black text-4xl opacity-20">01</span>
-</div>
-<h3 class="text-4xl font-black uppercase tracking-tight">Packaging Design</h3>
-<p class="text-lg font-bold leading-tight">High-energy visual systems that pop on screen and off the shelf. We don't do 'quiet' or 'minimal'—we do impact.</p>
-<div class="neobrutal-border h-64 overflow-hidden">
-<img alt="Close up of modern beverage can design" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="Modern high contrast beverage can graphic design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_c8_T3U1cAW_IgSXP57cLF7y7dvNVCatob0TnEGOwGCXM56WRqKvEXMpRvX2TEydRforc2WboOQnWqWcXtC3-9Mu-IWJ6HRsrIp-WendpJIR_sz-e4RqzC1PF0CQqeRQngeyIv4iIvLLI4C3jnCYiDV09-agWdeE9iBoTN0TtnEUqkuHDtch5oKvaFgldqxoBsihgIEycFnOBzysVNHVqORwmcsdjt5Huvcs8ahRAYjZF8tBp1vHIir4Q13fECz6vDEASfyvGv3s5"/>
-</div>
-<ul class="flex flex-wrap gap-2">
-<li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Consumer Goods</li>
-<li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Beverage</li>
-<li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Limited Editions</li>
-</ul>
-</div>
-<!-- Brand Identity -->
-<div class="neobrutal-border neobrutal-shadow bg-primary text-white p-8 flex flex-col gap-6 neobrutal-card-hover transition-all">
-<div class="flex justify-between items-start">
-<span class="material-symbols-outlined text-6xl">stylus_note</span>
-<span class="font-black text-4xl opacity-40">02</span>
-</div>
-<h3 class="text-4xl font-black uppercase tracking-tight">Brand Identity</h3>
-<p class="text-lg font-bold leading-tight">Bold typography and fearless logos. We create the DNA of your brand and ensure it stays consistent across every touchpoint.</p>
-<div class="neobrutal-border border-white h-64 overflow-hidden">
-<img alt="Branding moodboard with bold typography" class="w-full h-full object-cover" data-alt="Bold brutalist typography and brand pattern moodboard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtSLbL_YkkxQmYq7F9a_rJXDBuRbCHf5g0h86eMJn_kTDXPHY4hY6yuFENKlhiCjMb37yoloURqva87bMFSpXJReDhHH1eAc5INEXfMpUGRNWai-jZ_KWRwMOgedYG-p90_qRsEh5paznAn-ytzwZsI71GgSxKX7vplSZXghRc4zpralt9wvdO8nV9JGRg6VGDNqfCtNAJUyT67kN9-hqAXilFQIlKj-QU2HteCPDdC-rT7YX8elMDKemamQw93InwimkXOp2AxmUP"/>
-</div>
-<ul class="flex flex-wrap gap-2">
-<li class="bg-white text-black px-3 py-1 font-bold text-xs uppercase">Visual DNA</li>
-<li class="bg-white text-black px-3 py-1 font-bold text-xs uppercase">Logo Systems</li>
-<li class="bg-white text-black px-3 py-1 font-bold text-xs uppercase">Brand Guidelines</li>
-</ul>
-</div>
-<!-- Structural Prototyping -->
-<div class="neobrutal-border neobrutal-shadow bg-white p-8 flex flex-col gap-6 neobrutal-card-hover transition-all">
-<div class="flex justify-between items-start">
-<span class="material-symbols-outlined text-6xl text-primary">architecture</span>
-<span class="font-black text-4xl opacity-20">03</span>
-</div>
-<h3 class="text-4xl font-black uppercase tracking-tight">Structural Prototyping</h3>
-<p class="text-lg font-bold leading-tight">From sketch to physical shelf-ready forms. We engineer custom shapes that define the unboxing experience.</p>
-<div class="neobrutal-border h-64 overflow-hidden">
-<img alt="Packaging structural mockup on a desk" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="3D cardboard structure prototype of a box" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjbeKPjn-0R4pgQrjOAPHkLbKDUfFkZ3j6LAwyM0mByf8adgI0fo0HpHjJNUJcfyk-HbmWoXB3h_9Pzev_FbgvIDw3IAThIafyKHzvvPcWZzIRKgbNjo3elGuPBtZj8HSvVbuC2QlBvb0_fKcwODKebddImpfe-fCdEezOyHfpVCsd8Zv_3So-T2lySWI5hhf2Qn35J9BoKuii5f4zDM1_uZJx446XTUhGOhGm2WoachsycKRjOG-s5aFOtJWiB_zbmIV_8gndc-TV"/>
-</div>
-<ul class="flex flex-wrap gap-2">
-<li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Die-line Design</li>
-<li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">3D Mockups</li>
-<li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Material Testing</li>
-</ul>
-</div>
-<!-- Sustainable Solutions -->
-<div class="neobrutal-border neobrutal-shadow bg-green-400 p-8 flex flex-col gap-6 neobrutal-card-hover transition-all">
-<div class="flex justify-between items-start">
-<span class="material-symbols-outlined text-6xl text-black">eco</span>
-<span class="font-black text-4xl opacity-40">04</span>
-</div>
-<h3 class="text-4xl font-black uppercase tracking-tight">Sustainable Solutions</h3>
-<p class="text-lg font-bold leading-tight text-black">Eco-friendly materials without compromise. We prove that being green doesn't mean being boring.</p>
-<div class="neobrutal-border border-black h-64 overflow-hidden">
-<img alt="Eco friendly packaging textures" class="w-full h-full object-cover" data-alt="Close up of recycled textured paper packaging" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwCOA12-rnQE3Iax-3VpNG2MWifwQsFzwfxwNHHetRpoM1LU2pcs6sVePTjh-PqLacwHxlOykGmue8fhhsk3WxkRNMz-AHTeL7dUVgHT-CkK-pmFNtDV3X6JgxWBdwj90TjtUG6W-WejWkkw1AAHrMBpkNXtmssdBNURAIWi5oPlz64mIYp-uq7Y699TvjKhDj4b0mJn-Y1U4VwVscjROzdfHpAGF2vCGhQ26mOpP85ZP2fu-2coTstP-BZ7J4BzkeiJGvhRL0cEfC"/>
-</div>
-<ul class="flex flex-wrap gap-2">
-<li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Bio-Materials</li>
-<li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Recyclable Systems</li>
-<li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Refillable Units</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<!-- Stats Section (Color Blocking) -->
-<section class="grid grid-cols-1 md:grid-cols-3 border-y-4 border-black">
-<div class="bg-primary p-12 border-b-4 md:border-b-0 md:border-r-4 border-black flex flex-col justify-center items-center text-center gap-4">
-<p class="text-white text-xl font-extrabold uppercase tracking-widest">Awards Won</p>
-<p class="text-white text-8xl font-black leading-none italic">42</p>
-<div class="bg-black text-white px-4 py-1 font-bold">+12% YoY</div>
-</div>
-<div class="bg-white p-12 border-b-4 md:border-b-0 md:border-r-4 border-black flex flex-col justify-center items-center text-center gap-4">
-<p class="text-black text-xl font-extrabold uppercase tracking-widest">Brands Launched</p>
-<p class="text-black text-8xl font-black leading-none italic">150+</p>
-<div class="bg-primary text-white px-4 py-1 font-bold">+25% GROWTH</div>
-</div>
-<div class="bg-yellow-400 p-12 flex flex-col justify-center items-center text-center gap-4">
-<p class="text-black text-xl font-extrabold uppercase tracking-widest">Caffeine Intake</p>
-<p class="text-black text-8xl font-black leading-none italic">9k+</p>
-<div class="bg-black text-white px-4 py-1 font-bold">LITERS</div>
-</div>
-</section>
-<!-- CTA Section -->
-<section class="p-6 md:p-20 bg-black text-white overflow-hidden relative">
-<div class="absolute top-0 right-0 opacity-10 pointer-events-none select-none">
-<span class="text-[300px] leading-none font-black uppercase">PENTOOL</span>
-</div>
-<div class="max-w-4xl relative z-10">
-<h2 class="text-6xl md:text-8xl font-black uppercase tracking-tighter mb-10 leading-none">
-                    READY TO BE THE <span class="text-primary italic">LOUDEST</span> ON THE SHELF?
-                </h2>
-<div class="flex flex-col sm:flex-row gap-6">
-<a class="neobrutal-border border-white bg-white text-black px-10 py-5 text-2xl font-black uppercase hover:bg-primary hover:text-white transition-colors text-center" href="contact.html">
-                        Start a Project
-                    </a>
-<a class="neobrutal-border border-white bg-transparent text-white px-10 py-5 text-2xl font-black uppercase hover:bg-white hover:text-black transition-colors text-center" href="portfolio.html">
-                        View Portfolio
-                    </a>
-</div>
-</div>
-</section>
+
+  <!-- Hero -->
+  <section class="border-b-4 border-black bg-accent-yellow px-6 md:px-20 py-20">
+    <div class="mx-auto max-w-7xl flex flex-col md:flex-row gap-12 items-center">
+      <div class="flex-1 space-y-8">
+        <div class="inline-block bg-black text-white px-4 py-1 text-sm font-black uppercase tracking-widest">Our Expertise</div>
+        <h1 class="text-7xl md:text-9xl font-black leading-[0.9] uppercase tracking-tighter">
+          WE STOP THE <span class="bg-white px-2 border-4 border-black inline-block -rotate-1 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">SCROLL.</span><br/>
+          WE WIN THE <span class="bg-primary text-white px-2">SHELF.</span>
+        </h1>
+        <p class="text-xl md:text-2xl font-bold max-w-xl border-l-8 border-black pl-6 py-2">
+          High-energy visual systems, fearless structural design, and packaging that speaks louder than the competition.
+        </p>
+      </div>
+      <div class="flex-1 w-full max-w-lg">
+        <div class="neo-brutalism bg-white aspect-square overflow-hidden rotate-2 hover:rotate-0 transition-transform duration-300">
+          <img alt="Bold vibrant product packaging design showcase" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTGvLv4zA1aYEGs6GjOoPI9HbeAWUhOEeN0tx7NLiS9QiVAMQW9VDlfTfEAW4ptTkfkRY_jOyAOUIDoG5SS_dO4a2Kubs0JYJdfhiku55GFXAF_4XRqKDvZt5fmgP9uvGIdwCnnKSrNb7b23UIETA1mKzuD8jjgmZ1zd4qcXG6QsntrQrCEq_186eJEbtcA0Un8Gzh79DvdP3l-SyAYb2ejDU9B9H_Q3dKhtIz4tI538MT0FkWMfOYGsmeDFmjs_b0u6cECOYfmjry"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+  <section class="px-6 md:px-20 py-20 bg-background-light">
+    <div class="max-w-7xl mx-auto">
+      <div class="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
+        <h2 class="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none">The Arsenal</h2>
+        <p class="max-w-sm font-bold text-lg">Four core pillars of design built to disrupt, dominate, and deliver.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+        <!-- Packaging Design -->
+        <div class="neo-brutalism bg-white p-8 flex flex-col gap-6 hover:-translate-y-2 hover:-translate-x-1 transition-transform duration-300">
+          <div class="flex justify-between items-start">
+            <span class="material-symbols-outlined text-6xl text-primary">package_2</span>
+            <span class="font-black text-4xl opacity-20">01</span>
+          </div>
+          <h3 class="text-4xl font-black uppercase tracking-tight">Packaging Design</h3>
+          <p class="text-lg font-bold leading-tight">High-energy visual systems that pop on screen and off the shelf. We don't do 'quiet' or 'minimal' — we do impact.</p>
+          <div class="border-4 border-black h-64 overflow-hidden">
+            <img alt="Modern beverage can design" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_c8_T3U1cAW_IgSXP57cLF7y7dvNVCatob0TnEGOwGCXM56WRqKvEXMpRvX2TEydRforc2WboOQnWqWcXtC3-9Mu-IWJ6HRsrIp-WendpJIR_sz-e4RqzC1PF0CQqeRQngeyIv4iIvLLI4C3jnCYiDV09-agWdeE9iBoTN0TtnEUqkuHDtch5oKvaFgldqxoBsihgIEycFnOBzysVNHVqORwmcsdjt5Huvcs8ahRAYjZF8tBp1vHIir4Q13fECz6vDEASfyvGv3s5"/>
+          </div>
+          <ul class="flex flex-wrap gap-2">
+            <li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Consumer Goods</li>
+            <li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Beverage</li>
+            <li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Limited Editions</li>
+          </ul>
+        </div>
+
+        <!-- Brand Identity -->
+        <div class="neo-brutalism bg-primary text-white p-8 flex flex-col gap-6 hover:-translate-y-2 hover:-translate-x-1 transition-transform duration-300">
+          <div class="flex justify-between items-start">
+            <span class="material-symbols-outlined text-6xl">stylus_note</span>
+            <span class="font-black text-4xl opacity-40">02</span>
+          </div>
+          <h3 class="text-4xl font-black uppercase tracking-tight">Brand Identity</h3>
+          <p class="text-lg font-bold leading-tight">Bold typography and fearless logos. We create the DNA of your brand and ensure it stays consistent across every touchpoint.</p>
+          <div class="border-4 border-white h-64 overflow-hidden">
+            <img alt="Brand identity moodboard" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtSLbL_YkkxQmYq7F9a_rJXDBuRbCHf5g0h86eMJn_kTDXPHY4hY6yuFENKlhiCjMb37yoloURqva87bMFSpXJReDhHH1eAc5INEXfMpUGRNWai-jZ_KWRwMOgedYG-p90_qRsEh5paznAn-ytzwZsI71GgSxKX7vplSZXghRc4zpralt9wvdO8nV9JGRg6VGDNqfCtNAJUyT67kN9-hqAXilFQIlKj-QU2HteCPDdC-rT7YX8elMDKemamQw93InwimkXOp2AxmUP"/>
+          </div>
+          <ul class="flex flex-wrap gap-2">
+            <li class="bg-white text-black px-3 py-1 font-bold text-xs uppercase">Visual DNA</li>
+            <li class="bg-white text-black px-3 py-1 font-bold text-xs uppercase">Logo Systems</li>
+            <li class="bg-white text-black px-3 py-1 font-bold text-xs uppercase">Brand Guidelines</li>
+          </ul>
+        </div>
+
+        <!-- Structural Prototyping -->
+        <div class="neo-brutalism bg-white p-8 flex flex-col gap-6 hover:-translate-y-2 hover:-translate-x-1 transition-transform duration-300">
+          <div class="flex justify-between items-start">
+            <span class="material-symbols-outlined text-6xl text-primary">architecture</span>
+            <span class="font-black text-4xl opacity-20">03</span>
+          </div>
+          <h3 class="text-4xl font-black uppercase tracking-tight">Structural Prototyping</h3>
+          <p class="text-lg font-bold leading-tight">From sketch to physical shelf-ready forms. We engineer custom shapes that define the unboxing experience.</p>
+          <div class="border-4 border-black h-64 overflow-hidden">
+            <img alt="Packaging structural mockup" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjbeKPjn-0R4pgQrjOAPHkLbKDUfFkZ3j6LAwyM0mByf8adgI0fo0HpHjJNUJcfyk-HbmWoXB3h_9Pzev_FbgvIDw3IAThIafyKHzvvPcWZzIRKgbNjo3elGuPBtZj8HSvVbuC2QlBvb0_fKcwODKebddImpfe-fCdEezOyHfpVCsd8Zv_3So-T2lySWI5hhf2Qn35J9BoKuii5f4zDM1_uZJx446XTUhGOhGm2WoachsycKRjOG-s5aFOtJWiB_zbmIV_8gndc-TV"/>
+          </div>
+          <ul class="flex flex-wrap gap-2">
+            <li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Die-line Design</li>
+            <li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">3D Mockups</li>
+            <li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Material Testing</li>
+          </ul>
+        </div>
+
+        <!-- Sustainable Solutions -->
+        <div class="neo-brutalism bg-accent-lime p-8 flex flex-col gap-6 hover:-translate-y-2 hover:-translate-x-1 transition-transform duration-300">
+          <div class="flex justify-between items-start">
+            <span class="material-symbols-outlined text-6xl text-black">eco</span>
+            <span class="font-black text-4xl text-black opacity-40">04</span>
+          </div>
+          <h3 class="text-4xl font-black uppercase tracking-tight">Sustainable Solutions</h3>
+          <p class="text-lg font-bold leading-tight text-black">Eco-friendly materials without compromise. We prove that being green doesn't mean being boring.</p>
+          <div class="border-4 border-black h-64 overflow-hidden">
+            <img alt="Eco friendly packaging" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwCOA12-rnQE3Iax-3VpNG2MWifwQsFzwfxwNHHetRpoM1LU2pcs6sVePTjh-PqLacwHxlOykGmue8fhhsk3WxkRNMz-AHTeL7dUVgHT-CkK-pmFNtDV3X6JgxWBdwj90TjtUG6W-WejWkkw1AAHrMBpkNXtmssdBNURAIWi5oPlz64mIYp-uq7Y699TvjKhDj4b0mJn-Y1U4VwVscjROzdfHpAGF2vCGhQ26mOpP85ZP2fu-2coTstP-BZ7J4BzkeiJGvhRL0cEfC"/>
+          </div>
+          <ul class="flex flex-wrap gap-2">
+            <li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Bio-Materials</li>
+            <li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Recyclable Systems</li>
+            <li class="bg-black text-white px-3 py-1 font-bold text-xs uppercase">Refillable Units</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="grid grid-cols-1 md:grid-cols-3 border-y-4 border-black">
+    <div class="bg-primary p-12 border-b-4 md:border-b-0 md:border-r-4 border-black flex flex-col justify-center items-center text-center gap-4">
+      <p class="text-white text-xl font-extrabold uppercase tracking-widest">Awards Won</p>
+      <p class="text-white text-8xl font-black leading-none italic">42</p>
+      <div class="bg-black text-white px-4 py-1 font-bold uppercase text-sm">+12% YoY</div>
+    </div>
+    <div class="bg-white p-12 border-b-4 md:border-b-0 md:border-r-4 border-black flex flex-col justify-center items-center text-center gap-4">
+      <p class="text-black text-xl font-extrabold uppercase tracking-widest">Brands Launched</p>
+      <p class="text-black text-8xl font-black leading-none italic">150+</p>
+      <div class="bg-primary text-white px-4 py-1 font-bold uppercase text-sm">+25% Growth</div>
+    </div>
+    <div class="bg-accent-yellow p-12 flex flex-col justify-center items-center text-center gap-4">
+      <p class="text-black text-xl font-extrabold uppercase tracking-widest">Caffeine Intake</p>
+      <p class="text-black text-8xl font-black leading-none italic">9k+</p>
+      <div class="bg-black text-white px-4 py-1 font-bold uppercase text-sm">Liters</div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="px-6 md:px-20 py-24 bg-black text-white overflow-hidden relative">
+    <div class="absolute top-0 right-0 opacity-10 pointer-events-none select-none">
+      <span class="text-[300px] leading-none font-black uppercase">PENTOOL</span>
+    </div>
+    <div class="max-w-4xl relative z-10">
+      <h2 class="text-6xl md:text-8xl font-black uppercase tracking-tighter mb-10 leading-none">
+        READY TO BE THE <span class="text-accent-lime italic">LOUDEST</span> ON THE SHELF?
+      </h2>
+      <div class="flex flex-col sm:flex-row gap-6">
+        <a class="neo-brutalism-sm border-white bg-accent-lime text-black px-10 py-5 text-2xl font-black uppercase hover:-translate-y-1 transition-transform inline-block text-center" href="contact.html">Start a Project</a>
+        <a class="neo-brutalism-sm border-white bg-white text-black px-10 py-5 text-2xl font-black uppercase hover:-translate-y-1 transition-transform inline-block text-center" href="portfolio.html">View Portfolio</a>
+      </div>
+    </div>
+  </section>
+
 </main>
+
 <!-- Footer -->
-<footer class="bg-white border-t-4 border-black p-10">
-<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10">
-<div class="max-w-xs space-y-6">
-<div class="flex items-center gap-3">
-<img src="Logo.svg" alt="House of Pentool Logo" class="h-10 w-auto object-contain">
-<h2 class="text-xl font-black uppercase tracking-tighter">House of Pentool</h2>
-</div>
-<p class="font-bold">A high-impact design studio specializing in packaging and brand disruption since 2012.</p>
-<div class="flex gap-4">
-<div class="size-10 neobrutal-border bg-yellow-400 flex items-center justify-center cursor-pointer hover:bg-primary transition-colors">
-<span class="material-symbols-outlined font-bold">share</span>
-</div>
-<div class="size-10 neobrutal-border bg-primary flex items-center justify-center cursor-pointer hover:bg-yellow-400 transition-colors">
-<span class="material-symbols-outlined font-bold">alternate_email</span>
-</div>
-</div>
-</div>
-<div class="grid grid-cols-2 md:grid-cols-3 gap-10">
-<div class="space-y-4">
-<h4 class="font-black uppercase text-sm tracking-widest bg-black text-white px-2 inline-block">Menu</h4>
-<ul class="font-bold space-y-2">
-<li><a class="hover:underline" href="portfolio.html">Works</a></li>
-<li><a class="hover:underline" href="services.html">Studio</a></li>
-<li><a class="hover:underline" href="contact.html">Contact</a></li>
-</ul>
-</div>
-<div class="space-y-4">
-<h4 class="font-black uppercase text-sm tracking-widest bg-black text-white px-2 inline-block">Social</h4>
-<ul class="font-bold space-y-2">
-<li><a class="hover:underline" href="#">Instagram</a></li>
-<li><a class="hover:underline" href="#">Behance</a></li>
-<li><a class="hover:underline" href="#">Dribbble</a></li>
-</ul>
-</div>
-<div class="space-y-4 col-span-2 md:col-span-1">
-<h4 class="font-black uppercase text-sm tracking-widest bg-black text-white px-2 inline-block">Newsletter</h4>
-<div class="flex mt-2">
-<input class="neobrutal-border border-r-0 px-4 py-2 w-full focus:outline-none" placeholder="Email" type="text"/>
-<button class="neobrutal-border bg-primary px-4 font-black uppercase">Go</button>
-</div>
-</div>
-</div>
-</div>
-<div class="max-w-7xl mx-auto mt-20 pt-10 border-t-2 border-black flex flex-col md:flex-row justify-between font-bold text-sm uppercase">
-<p>© 2024 House of Pentool Agency. All rights reserved.</p>
-<p>Built for the bold.</p>
+<footer class="bg-white px-6 py-12 md:px-20 border-t-4 border-black">
+<div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-12 md:flex-row">
+  <a href="index.html" class="flex items-center gap-4 hover:opacity-80 transition-opacity">
+    <img src="Logo.svg" alt="House of Pentool Logo" class="h-10 w-auto object-contain">
+    <span class="text-4xl font-black tracking-tighter uppercase">House of Pentool</span>
+  </a>
+  <div class="flex gap-6">
+    <a class="h-12 w-12 flex items-center justify-center border-2 border-black neo-brutalism-sm bg-accent-lime hover:-translate-y-1 transition-transform" href="#"><span class="material-symbols-outlined text-black">language</span></a>
+    <a class="h-12 w-12 flex items-center justify-center border-2 border-black neo-brutalism-sm bg-accent-coral hover:-translate-y-1 transition-transform" href="#"><span class="material-symbols-outlined text-black">share</span></a>
+    <a class="h-12 w-12 flex items-center justify-center border-2 border-black neo-brutalism-sm bg-accent-blue hover:-translate-y-1 transition-transform" href="#"><span class="material-symbols-outlined text-black">alternate_email</span></a>
+  </div>
+  <p class="text-sm font-black uppercase tracking-widest opacity-60">© 2024 House of Pentool. All Rights Unboxed.</p>
 </div>
 </footer>
+
 </div>
 </body></html>
