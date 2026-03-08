@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Book a Discovery Call | House of Pentool</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    "primary": "#e91e8c",
+                    "accent-lime": "#ccff00",
+                    "accent-blue": "#00d4ff",
+                    "accent-coral": "#ff4d4d",
+                    "background-light": "#f5f5f0",
+                },
+                fontFamily: { "display": ["Plus Jakarta Sans", "sans-serif"] },
+            },
+        },
+    }
+</script>
+<style>
+    .neo-brutalism { box-shadow: 12px 12px 0px 0px rgba(0,0,0,1); border: 4px solid black; }
+    .neo-brutalism-sm { box-shadow: 6px 6px 0px 0px rgba(0,0,0,1); border: 3px solid black; }
+</style>
+</head>
+<body class="bg-background-light font-display text-slate-900 overflow-x-hidden">
+<div class="relative flex min-h-screen w-full flex-col">
+
+<!-- Navigation -->
+<header class="sticky top-0 z-50 w-full border-b-4 border-black bg-primary px-6 py-4 md:px-20">
+  <div class="mx-auto flex flex-col md:flex-row max-w-7xl items-center justify-between gap-6 md:gap-0 py-2 md:py-0">
+    <a class="flex items-center gap-2 hover:opacity-80 transition-opacity" href="index.html">
+      <img src="Logo.svg" alt="House of Pentool Logo" class="h-10 w-auto object-contain">
+      <h2 class="text-sm font-black tracking-tighter text-black uppercase" style="word-spacing:0.35em">HOUSE OF PENTOOL</h2>
+    </a>
+    <nav class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 my-4 md:my-0">
+      <a class="text-sm font-black uppercase tracking-widest text-black hover:underline underline-offset-4" href="portfolio.html">Work</a>
+      <a class="text-sm font-black uppercase tracking-widest text-black hover:underline underline-offset-4" href="services.html">Services</a>
+      <a class="text-sm font-black uppercase tracking-widest text-black hover:underline underline-offset-4" href="process.html">Process</a>
+    </nav>
+    <a class="neo-brutalism-sm bg-accent-lime px-6 py-2 text-sm font-black uppercase text-black transition-transform duration-300 hover:-translate-y-1 hover:rotate-2 hover:scale-105 inline-block" href="contact.html">Get Started</a>
+  </div>
+</header>
+
+<main class="flex-1">
+
+  <!-- Hero Banner -->
+  <section class="border-b-4 border-black bg-accent-lime px-6 md:px-20 py-14">
+    <div class="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-8">
+      <div>
+        <div class="inline-block mb-4 px-4 py-1 bg-black text-white font-black uppercase tracking-widest text-xs -rotate-1 shadow-[4px_4px_0px_0px_rgba(0,0,0,0.3)]">Free · 30 Minutes</div>
+        <h1 class="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none text-black">
+          Book Your<br/><span class="bg-primary text-white px-2 border-4 border-black inline-block rotate-1 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">Discovery</span><br/>Call.
+        </h1>
+        <p class="mt-6 text-xl font-bold text-black max-w-md">Tell us about your product. We'll talk packaging, timelines, and what it takes to make your brand unmissable on shelf.</p>
+      </div>
+      <div class="flex flex-col gap-5">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 bg-black flex items-center justify-center neo-brutalism-sm flex-shrink-0">
+            <span class="material-symbols-outlined text-accent-lime">schedule</span>
+          </div>
+          <p class="font-black uppercase text-sm">30 minute call · No commitment</p>
+        </div>
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 bg-black flex items-center justify-center neo-brutalism-sm flex-shrink-0">
+            <span class="material-symbols-outlined text-accent-lime">package_2</span>
+          </div>
+          <p class="font-black uppercase text-sm">Packaging · Branding · Ecommerce Images</p>
+        </div>
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 bg-black flex items-center justify-center neo-brutalism-sm flex-shrink-0">
+            <span class="material-symbols-outlined text-accent-lime">bolt</span>
+          </div>
+          <p class="font-black uppercase text-sm">Fast turnaround · Bold results</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calendly Embed -->
+  <section class="px-6 md:px-20 py-16 bg-background-light">
+    <div class="mx-auto max-w-5xl">
+      <div class="neo-brutalism bg-white overflow-hidden">
+        <div class="bg-black px-8 py-4 border-b-4 border-black flex items-center gap-3">
+          <span class="material-symbols-outlined text-accent-lime">calendar_month</span>
+          <span class="text-white font-black uppercase tracking-widest text-sm">Pick a Time That Works for You</span>
+        </div>
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/mrpentool/30min" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-white px-6 py-12 md:px-20 border-t-4 border-black">
+<div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-12 md:flex-row">
+  <a href="index.html" class="flex items-center gap-4 hover:opacity-80 transition-opacity">
+    <img src="Logo.svg" alt="House of Pentool Logo" class="h-10 w-auto object-contain">
+    <span class="text-4xl font-black tracking-tighter uppercase">House of Pentool</span>
+  </a>
+  <div class="flex gap-6">
+    <a class="h-12 w-12 flex items-center justify-center border-2 border-black neo-brutalism-sm bg-accent-lime hover:-translate-y-1 transition-transform" href="#"><span class="material-symbols-outlined text-black">language</span></a>
+    <a class="h-12 w-12 flex items-center justify-center border-2 border-black neo-brutalism-sm bg-accent-coral hover:-translate-y-1 transition-transform" href="#"><span class="material-symbols-outlined text-black">share</span></a>
+    <a class="h-12 w-12 flex items-center justify-center border-2 border-black neo-brutalism-sm bg-accent-blue hover:-translate-y-1 transition-transform" href="#"><span class="material-symbols-outlined text-black">alternate_email</span></a>
+  </div>
+  <p class="text-sm font-black uppercase tracking-widest opacity-60">© 2024 House of Pentool. All Rights Unboxed.</p>
+</div>
+</footer>
+
+</div>
+</body></html>
