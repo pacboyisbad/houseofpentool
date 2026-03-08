@@ -117,4 +117,56 @@
 </footer>
 
 </div>
+<!-- Sticky CTA Button -->
+<style>
+  .sticky-cta-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9999;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+  }
+  .sticky-cta-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+</style>
+<div id="sticky-cta-wrapper" class="sticky-cta-container">
+  <a href="contact.html" class="neo-brutalism sticky-cta group flex items-center gap-2" style="
+    background: #000;
+    color: #ccff00;
+    padding: 16px 28px;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: transform 0.2s, background 0.2s, color 0.2s;
+  " onmouseover="this.style.transform='translateY(-6px) scale(1.05)'; this.style.background='#f33fab'; this.style.color='#fff';" onmouseout="this.style.transform='none'; this.style.background='#000'; this.style.color='#ccff00';">
+    <span class="material-symbols-outlined" style="font-size:24px;">electric_bolt</span> Start a Project
+  </a>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const wrapper = document.getElementById('sticky-cta-wrapper');
+    if(wrapper) {
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+          wrapper.classList.add('visible');
+        } else {
+          wrapper.classList.remove('visible');
+        }
+      });
+      // Fire once on load to check initial position
+      if (window.scrollY > 300) {
+        wrapper.classList.add('visible');
+      }
+    }
+  });
+</script>
+
 </body></html>
