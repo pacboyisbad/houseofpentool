@@ -1,0 +1,644 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Funtrip Mayo Range</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f8f5f7; --ink:#000; --white:#fff; --slate:#eceaec; --muted:#4a4448;
+  --pink:#f33fab; --lime:#bef264; --blue:#38bdf8; --coral:#fb7185; --volt:#ccff00;
+  --p-out:#3cc3cc; --p-in:#2f4757;
+  --v-out:#ebb924; --v-in:#48a2ec;
+  --l-out:#a9d14a; --l-in:#3fa23a;
+  --tomato:#d63a2b;
+  --font:"Plus Jakarta Sans", "Arial Black", system-ui, sans-serif;
+  --b:4px solid #000;
+  --sh:12px 12px 0 0 #000;
+  --sh-sm:6px 6px 0 0 #000;
+  --gut:clamp(16px,5vw,80px);
+  --max:1280px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.5;letter-spacing:.3px;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+h1,h2,h3,p{margin:0}
+h1,h2,h3{font-weight:800;text-transform:uppercase;line-height:.9;letter-spacing:.01em;text-wrap:balance}
+figure{margin:0}
+a{color:inherit}
+.wrap{max-width:var(--max);margin-inline:auto;padding-inline:var(--gut)}
+.sec{border-bottom:var(--b);padding-block:clamp(56px,8vw,120px)}
+.neo{border:var(--b);box-shadow:var(--sh)}
+.neo-sm{border:3px solid #000;box-shadow:var(--sh-sm)}
+.wob{transition:transform .3s}
+.wob:hover{transform:translateY(-4px) rotate(1.5deg) scale(1.02)}
+.sticker{display:inline-block;align-self:flex-start;justify-self:start;background:#fff;border:var(--b);padding:8px 16px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;font-size:14px;transform:rotate(-1.5deg);box-shadow:4px 4px 0 0 #000}
+.bar{display:inline-block;background:#000;color:#fff;padding:.12em .3em .08em}
+.hl{display:inline-block;background:#fff;border:var(--b);padding:0 .12em;transform:rotate(2deg);box-shadow:8px 8px 0 0 #000}
+.eyebrow{font-weight:800;text-transform:uppercase;letter-spacing:.14em;font-size:13px}
+.big-p{font-size:clamp(19px,1.8vw,24px);font-weight:700;line-height:1.3;max-width:40ch}
+.body{max-width:60ch;font-weight:500}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--pink);border-bottom:var(--b)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo img{height:36px;width:auto}
+.logo span{font-weight:800;font-size:14px;text-transform:uppercase;word-spacing:.35em;letter-spacing:.04em}
+.top nav{display:flex;gap:clamp(14px,2.5vw,36px);flex-wrap:wrap}
+.top nav a{font-weight:800;font-size:13px;text-transform:uppercase;letter-spacing:.14em;text-decoration:none}
+.top nav a:hover{text-decoration:underline;text-underline-offset:4px}
+.btn{display:inline-block;background:var(--lime);border:3px solid #000;box-shadow:var(--sh-sm);padding:9px 20px;font-weight:800;font-size:14px;text-transform:uppercase;text-decoration:none;transition:transform .3s}
+.btn:hover{transform:translateY(-3px) rotate(2deg) scale(1.05)}
+.btn:focus-visible,.top nav a:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@media (max-width:760px){.top nav{display:none}}
+
+/* hero */
+.hero{border-bottom:var(--b);background:var(--blue)}
+.hero-copy{max-width:var(--max);margin-inline:auto;padding:clamp(36px,5vw,72px) var(--gut);display:grid;gap:clamp(24px,3vw,40px)}
+.hero h1{font-size:clamp(40px,8.6vw,112px)}
+.hero h1 > span{display:block;white-space:nowrap}
+.hero-foot{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:end;border-top:var(--b);padding-top:clamp(20px,2.4vw,32px)}
+.chips{display:flex;gap:10px;flex-wrap:wrap}
+.chips span{border:3px solid #000;box-shadow:4px 4px 0 0 #000;padding:8px 14px;font-weight:800;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+@media (max-width:700px){.hero h1 > span{white-space:normal}.hero-foot{grid-template-columns:1fr}}
+.hero h1 .hl{margin-top:.12em}
+.hero-img{border-top:var(--b);overflow:hidden;background:#d8d2cc}
+.hero-img img{width:100%}
+.metas{display:grid;grid-template-columns:repeat(5,1fr);background:#000;color:#fff;border-bottom:var(--b)}
+.metas div{padding:18px clamp(12px,2vw,28px);display:grid;gap:4px;border-right:2px solid #333}
+.metas div:last-child{border-right:0}
+.metas .eyebrow{color:var(--volt);font-size:11px}
+.metas b{font-weight:700;font-size:15px}
+@media (max-width:900px){.metas{grid-template-columns:1fr 1fr}.metas div{border-bottom:2px solid #333}}
+
+/* section head */
+.head{display:grid;gap:22px;margin-bottom:clamp(36px,5vw,64px)}
+.head h2{font-size:clamp(40px,6.4vw,96px)}
+
+/* problem */
+.problem{background:#fff}
+.old-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,36px)}
+.old-card{background:var(--slate);display:grid;gap:0}
+.old-card .ph{padding:clamp(20px,3vw,40px);display:grid;place-items:center}
+.old-card img{height:clamp(240px,28vw,400px);width:auto;filter:grayscale(.15)}
+.old-card .cap{background:#000;color:#fff;padding:14px 18px;border-top:var(--b)}
+.old-card .cap b{display:block;text-transform:uppercase;font-weight:800;font-size:17px}
+.old-card .cap span{font-size:14px;opacity:.8;font-weight:600}
+.issues{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:clamp(40px,5vw,64px);border:var(--b)}
+.issues div{padding:22px;display:grid;gap:10px;align-content:start;border-right:var(--b)}
+.issues div:last-child{border-right:0}
+.issues div:nth-child(1){background:var(--coral)}.issues div:nth-child(2){background:var(--lime)}.issues div:nth-child(3){background:var(--blue)}.issues div:nth-child(4){background:#fff}
+.issues h3{font-size:20px;line-height:1.05}
+.issues p{font-size:15px;font-weight:600}
+@media (max-width:900px){.old-grid{grid-template-columns:1fr}.issues{grid-template-columns:1fr 1fr}.issues div:nth-child(2){border-right:0}.issues div:nth-child(-n+2){border-bottom:var(--b)}}
+@media (max-width:520px){.issues{grid-template-columns:1fr}.issues div{border-right:0;border-bottom:var(--b)}.issues div:last-child{border-bottom:0}}
+
+/* insight */
+.insight{background:var(--pink)}
+.qcard{background:#fff;padding:clamp(28px,6vw,80px);position:relative;overflow:hidden}
+.qcard .ghost{position:absolute;right:-20px;top:-90px;font-size:360px;font-weight:800;line-height:1;color:rgba(243,63,171,.12);pointer-events:none;user-select:none}
+.qcard .sticker{background:var(--lime);transform:rotate(-1deg);margin-bottom:28px}
+.quote{font-size:clamp(40px,6.6vw,96px);font-weight:800;font-style:italic;text-transform:uppercase;line-height:.95;letter-spacing:.005em;position:relative}
+.quote .pk{background:var(--pink);color:#fff;padding:0 .12em;font-style:italic}
+.qcard .big-p{margin-top:28px;position:relative}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,3vw,40px);margin-top:clamp(40px,5vw,64px)}
+.vs > div{background:#fff;padding:clamp(22px,3vw,40px);display:grid;gap:20px;align-content:start}
+.vs .no{background:var(--slate)}
+.vs h3{font-size:clamp(30px,3.6vw,52px)}
+.swap{position:relative;display:inline-block}
+.swap s{text-decoration-thickness:.12em;color:#8a8388}
+.swap .new{position:absolute;left:50%;top:-.55em;transform:translateX(-50%) rotate(-4deg);font-size:.45em;background:#000;color:#fff;padding:4px 10px;border:2px solid #fff;white-space:nowrap}
+.ladder{display:grid;gap:8px}
+.ladder span{display:block;padding:10px 14px;font-weight:800;font-size:14px;text-transform:uppercase;border:3px solid #000;background:#fff;color:#8a8388}
+.ladder span:nth-child(1){width:100%}.ladder span:nth-child(2){width:72%}.ladder span:nth-child(3){width:44%}
+.fan{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.fan span{padding:18px 8px;font-weight:800;font-size:14px;text-transform:uppercase;text-align:center;border:3px solid #000}
+.vs p{font-weight:600;font-size:15.5px}
+@media (max-width:800px){.vs{grid-template-columns:1fr}}
+
+/* journey */
+.journey-sec{background:#fff}
+.journey{display:grid;grid-template-columns:repeat(3,1fr);border:var(--b)}
+.stop{background:var(--c);padding:clamp(20px,2.6vw,36px);display:grid;gap:20px;align-content:start;border-right:var(--b)}
+.stop:last-child{border-right:0}
+.stop .food{aspect-ratio:16/10;overflow:hidden;background:#fff}
+.stop .food img{width:100%;height:100%;object-fit:cover}
+.stop h3{font-size:clamp(30px,3.2vw,48px)}
+.stop .who{font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase;background:#000;color:#fff;justify-self:start;padding:5px 10px}
+.stop p{font-weight:600;font-size:16px}
+.arrowrow{display:flex;justify-content:space-between;gap:12px;margin-top:22px;font-weight:800;text-transform:uppercase;font-size:clamp(14px,1.6vw,20px);letter-spacing:.04em}
+.feel{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,36px);margin-top:clamp(48px,6vw,88px)}
+.feel article{background:#fff;padding:clamp(22px,3vw,36px);display:grid;gap:28px;align-content:space-between}
+.feel .said{font-size:clamp(28px,2.8vw,42px);font-weight:800;font-style:italic;text-transform:uppercase;line-height:.98}
+.feel .said::before{content:"\201C"}.feel .said::after{content:"\201D"}
+.feel .who{font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase;justify-self:start;background:var(--c);color:var(--t,#000);padding:6px 10px;border:2px solid #000}
+.feel .tags{display:flex;flex-wrap:wrap;gap:8px}
+.feel .tags span{font-size:12.5px;font-weight:800;text-transform:uppercase;padding:4px 10px;border:2px solid #000}
+@media (max-width:900px){.journey{grid-template-columns:1fr}.stop{border-right:0;border-bottom:var(--b)}.stop:last-child{border-bottom:0}.feel{grid-template-columns:1fr}.arrowrow{display:none}}
+
+/* system */
+.system{background:var(--lime)}
+.anat{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:start}
+.anat-card{background:#fff;padding:clamp(20px,3vw,44px)}
+.anat-fig{position:relative;max-width:520px;margin-inline:auto}
+.anat-fig img{width:100%}
+.pin{position:absolute;left:var(--x);top:var(--y);transform:translate(-50%,-50%) rotate(-6deg);width:34px;height:34px;background:#000;color:var(--volt);font-weight:800;font-size:15px;display:grid;place-items:center;border:3px solid #fff;box-shadow:3px 3px 0 0 #000}
+.legend{list-style:none;margin:0;padding:0;background:#fff}
+.legend li{display:grid;grid-template-columns:44px 1fr auto;gap:12px;padding:14px 18px;border-bottom:3px solid #000;align-items:center}
+.legend li:last-child{border-bottom:0}
+.legend .n{width:30px;height:30px;background:#000;color:var(--volt);display:grid;place-items:center;font-weight:800;font-size:14px}
+.legend b{font-weight:800;text-transform:uppercase;display:block;font-size:15.5px;letter-spacing:.02em}
+.legend small{font-size:14px;font-weight:500;display:block;margin-top:2px;color:var(--muted)}
+.tag{font-weight:800;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:4px 8px;white-space:nowrap;border:2px solid #000}
+.tag.fixed{background:#000;color:#fff}
+.tag.flex{background:var(--pink);color:#fff}
+.crowns{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,36px);margin-top:clamp(48px,6vw,88px)}
+.crowns img{width:100%;aspect-ratio:5/2;object-fit:cover}
+.rule{display:flex;gap:16px;align-items:flex-start;margin-top:32px;flex-wrap:wrap}
+.rule .sticker{background:#000;color:#fff;border-color:#000}
+.rule p{font-weight:700;font-size:18px;max-width:60ch}
+@media (max-width:900px){.anat{grid-template-columns:1fr}.crowns{grid-template-columns:1fr}}
+
+/* colour */
+.colour{background:#fff}
+.swatches{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,36px)}
+.sw{background:var(--o);padding:clamp(18px,2.4vw,30px);display:grid;gap:22px}
+.sw .inner{background:var(--i);aspect-ratio:1/1;border:var(--b);border-radius:clamp(24px,3vw,44px);display:grid;align-content:end;padding:clamp(16px,2vw,26px)}
+.sw h3{font-size:clamp(36px,3.8vw,60px);color:#fff}
+.sw .hex{display:flex;justify-content:space-between;gap:10px}
+.sw .hex span{background:#fff;border:3px solid #000;padding:6px 10px;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;display:grid;gap:0}
+.sw .hex b{font-size:15px}
+@media (max-width:900px){.swatches{grid-template-columns:1fr}}
+
+/* chapters */
+.chapter{border-bottom:var(--b)}
+.ch-band{background:var(--o);color:var(--t);border-bottom:var(--b)}
+.ch-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,5vw,88px);align-items:center;padding-block:clamp(56px,7vw,110px)}
+.ch-pack img{max-height:700px;width:auto;margin-inline:auto;filter:drop-shadow(14px 14px 0 rgba(0,0,0,1));transform:rotate(var(--r,-3deg))}
+.ch-copy{display:grid;gap:24px}
+.ch-copy .sticker{color:#000}
+.ch-copy h2{font-size:clamp(56px,8.4vw,136px)}
+.ch-copy .line{font-size:clamp(22px,2.4vw,34px);font-weight:800;text-transform:uppercase;font-style:italic}
+.ch-copy .line span{background:#000;color:var(--volt);padding:0 .2em}
+.ch-copy .body{font-weight:600}
+.facts{display:grid;grid-template-columns:1fr 1fr;border:3px solid #000;background:#fff;color:#000}
+.facts div{padding:12px 16px;display:grid;gap:3px;border-bottom:3px solid #000}
+.facts div:nth-child(odd){border-right:3px solid #000}
+.facts div:nth-last-child(-n+2){border-bottom:0}
+.facts .k{font-weight:800;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.facts .v{font-weight:700;font-size:15px;line-height:1.3}
+.ch-scene{border-bottom:var(--b);overflow:hidden}
+.ch-scene img{width:100%;transition:transform .8s}
+.ch-scene:hover img{transform:scale(1.02)}
+.ch-duo{display:grid;grid-template-columns:1fr 1fr}
+.ch-duo figure{aspect-ratio:4/5;overflow:hidden}
+.ch-duo img{width:100%;height:100%;object-fit:cover}
+.ch-duo > :first-child{border-right:var(--b)}
+.ch-duo .panel{background:var(--o2);display:flex;flex-direction:column;justify-content:space-between;gap:24px;padding:clamp(22px,4vw,56px);aspect-ratio:4/5}
+.ch-duo .panel .big{font-size:clamp(40px,5.6vw,92px);font-weight:800;text-transform:uppercase;line-height:.9}
+.ch-duo .panel .why{max-width:40ch;font-weight:600;font-size:16.5px;background:#fff;border:3px solid #000;padding:16px 18px;box-shadow:var(--sh-sm)}
+@media (max-width:900px){.ch-grid{grid-template-columns:1fr}.ch-pack img{max-height:500px}.ch-duo{grid-template-columns:1fr}.ch-duo > :first-child{border-right:0;border-bottom:var(--b)}.ch-duo .panel{aspect-ratio:auto;min-height:420px}}
+
+/* before after */
+.ba-sec{background:var(--bg)}
+.ba-sec .head h2 .bar{padding:.1em .25em}
+.ba-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,2.6vw,40px)}
+.ba-item{display:grid;gap:0;background:#fff}
+.ba{position:relative;aspect-ratio:1000/1150;overflow:hidden;user-select:none;-webkit-user-select:none;touch-action:pan-y;--pos:50%;border-bottom:var(--b)}
+.ba .layer{position:absolute;inset:0}
+.ba .after{background:radial-gradient(ellipse 70% 60% at 50% 45%,#2c2c2c 0%,#111 70%)}
+.ba .before{background:radial-gradient(ellipse 70% 60% at 50% 45%,#f4f1f3 0%,#d9d6d8 75%);clip-path:inset(0 calc(100% - var(--pos)) 0 0)}
+.ba .layer img{width:100%;height:100%;object-fit:contain;pointer-events:none}
+.ba .line{position:absolute;top:0;bottom:0;left:var(--pos);width:4px;margin-left:-2px;background:var(--volt);pointer-events:none}
+.ba .knob{position:absolute;top:50%;left:var(--pos);width:52px;height:52px;margin:-26px 0 0 -26px;background:var(--volt);border:3px solid #000;box-shadow:4px 4px 0 0 #000;display:grid;place-items:center;pointer-events:none}
+.ba .knob svg{width:24px;height:24px}
+.ba input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;touch-action:pan-y}
+.ba input:focus-visible ~ .knob{outline:3px solid var(--pink);outline-offset:3px}
+.ba .tl,.ba .tr{position:absolute;top:14px;font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:5px 10px;border:3px solid #000;pointer-events:none}
+.ba .tl{left:14px;background:#fff;transform:rotate(-2deg)}
+.ba .tr{right:14px;background:var(--volt);color:#000;transform:rotate(2deg)}
+.ba-cap{padding:18px 20px;display:grid;gap:8px}
+.ba-cap h3{font-size:clamp(24px,2.2vw,32px)}
+.ba-cap p{font-size:15px;font-weight:600;color:var(--muted)}
+@media (max-width:900px){.ba-grid{grid-template-columns:1fr}.ba-item{max-width:560px;width:100%;margin-inline:auto}}
+
+/* shelf */
+.shelf-sec{background:var(--coral)}
+.shelf{background:#fff;display:grid}
+.shelf .row{display:grid;grid-template-columns:repeat(9,1fr);gap:clamp(4px,.8vw,12px);align-items:end;padding:clamp(14px,2vw,28px) clamp(10px,1.4vw,20px) 0;background:#eeeaec;border-bottom:clamp(10px,1.2vw,16px) solid #000}
+.shelf .row img{width:100%}
+.shelf .cap{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 18px}
+.shelf .cap b{font-weight:800;text-transform:uppercase;font-size:18px}
+.shelf .cap span{font-size:15px;font-weight:600}
+.shelves{display:grid;gap:clamp(24px,3vw,44px)}
+
+/* finale */
+.finale{background:var(--lime)}
+.lines{display:grid;border:var(--b);background:#fff;margin-bottom:clamp(40px,5vw,72px)}
+.lines div{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:center;padding:clamp(14px,2vw,24px) clamp(18px,2.4vw,32px);border-bottom:var(--b)}
+.lines div:last-child{border-bottom:0}
+.lines p{font-size:clamp(34px,6vw,96px);font-weight:800;text-transform:uppercase;line-height:.92}
+.lines p i{font-style:normal;background:var(--c);padding:0 .12em;border:3px solid #000;display:inline-block;transform:rotate(-1deg)}
+.lines span{font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase;background:#000;color:#fff;padding:6px 10px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,36px)}
+.macros img{width:100%;aspect-ratio:3/4;object-fit:cover}
+@media (max-width:700px){.lines div{grid-template-columns:1fr}.lines span{justify-self:start}.macros{grid-template-columns:1fr 1fr}.macros img:last-child{display:none}}
+
+/* footer */
+.cta{background:#000;color:#fff;text-align:center;padding-block:clamp(64px,9vw,130px);border-bottom:var(--b)}
+.cta h2{font-size:clamp(48px,9vw,140px);color:#fff}
+.cta h2 .swap .new{background:var(--volt);color:#000;border-color:#000}
+.cta p{margin-top:28px;font-weight:800;text-transform:uppercase;font-size:clamp(16px,1.8vw,22px);color:var(--volt)}
+footer.foot{background:#fff}
+.foot .wrap{padding-block:clamp(36px,5vw,56px);display:grid;gap:32px}
+.foot .brandrow{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.foot .brandrow .logo img{height:44px}
+.foot .brandrow .logo span{font-size:clamp(22px,3vw,36px);word-spacing:.1em}
+.foot .grid{display:grid;grid-template-columns:repeat(4,1fr);border:var(--b)}
+.foot .grid div{padding:16px 18px;border-right:var(--b);display:grid;gap:4px;align-content:start}
+.foot .grid div:last-child{border-right:0}
+.foot .grid .eyebrow{font-size:11px;color:var(--muted)}
+.foot .grid b{font-weight:800;text-transform:uppercase;font-size:14.5px;line-height:1.3}
+.foot .copy{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.6}
+@media (max-width:860px){.foot .grid{grid-template-columns:1fr 1fr}.foot .grid div:nth-child(2){border-right:0}.foot .grid div:nth-child(-n+2){border-bottom:var(--b)}}
+
+.fab{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:60;background:#000;color:var(--volt);border:var(--b);box-shadow:6px 6px 0 0 var(--pink);padding:14px 22px;font-weight:800;text-transform:uppercase;font-size:14px;letter-spacing:.05em;text-decoration:none;transition:transform .2s, background .2s, color .2s}
+.fab:hover{transform:translateY(-4px) scale(1.04);background:var(--pink);color:#fff;box-shadow:6px 6px 0 0 #000}
+@media (max-width:520px){.fab{display:none}}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top"><img src="img/hop-logo.svg" alt="House of Pentool logo" width="32" height="36"><span>House of Pentool</span></a>
+    <nav aria-label="Case study sections">
+      <a href="#problem">Problem</a><a href="#insight">Insight</a><a href="#system">System</a><a href="#variants">Variants</a><a href="#compare">Before/After</a>
+    </nav>
+    <a class="btn" href="#compare">Compare ↗</a>
+  </div>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<section class="hero" aria-labelledby="h1">
+  <div class="hero-copy">
+    <span class="sticker">Case study · Funtrip® Mayo</span>
+    <h1 id="h1"><span>Three kitchens.</span><span>Three needs.</span><span>One <span class="hl">mayo range.</span></span></h1>
+    <div class="hero-foot">
+      <p class="big-p">A redesign of Funtrip's 1&nbsp;kg food-service mayonnaise. Three packs built around the three businesses that buy them, not ranked from best to cheapest.</p>
+      <div class="chips" aria-label="Variants"><span style="background:var(--p-out)">Premium</span><span style="background:var(--v-out)">Veg</span><span style="background:var(--l-out)">Lite</span></div>
+    </div>
+  </div>
+  <figure class="hero-img"><img src="img/scene_lineup.webp" alt="Premium Mayo, Veg Mayo and Mayo Lite packs standing on teal, yellow and green plinths with ribbons of mayonnaise between them" width="2600" height="1103"></figure>
+</section>
+<div class="metas">
+  <div><span class="eyebrow">Client</span><b>Funtrip®</b></div>
+  <div><span class="eyebrow">Category</span><b>Food-service condiments</b></div>
+  <div><span class="eyebrow">Format</span><b>1 kg pillow pouch</b></div>
+  <div><span class="eyebrow">Variants</span><b>Premium · Veg · Lite</b></div>
+  <div><span class="eyebrow">Scope</span><b>Architecture, system, packs</b></div>
+</div>
+
+<!-- PROBLEM -->
+<section class="sec problem" id="problem" aria-labelledby="h-problem">
+  <div class="wrap">
+    <div class="head">
+      <span class="sticker">01 · Where we started</span>
+      <h2 id="h-problem">Three packs. <span class="bar">Three different brands.</span></h2>
+      <p class="body">Funtrip sells three eggless mayonnaises to kitchens across India. Each pack had been designed on its own, at a different time, in a different style. Nothing on the shelf said they were a family, and nothing said who each one was for.</p>
+    </div>
+    <div class="old-grid">
+      <div class="old-card neo wob"><div class="ph"><img src="img/premium_old.webp" alt="Previous Eggless Mayonnaise pack in dark purple with script lettering" loading="lazy"></div><div class="cap"><b>Eggless Mayonnaise</b><span>Purple, script type, burger in a milk splash</span></div></div>
+      <div class="old-card neo wob"><div class="ph"><img src="img/veg_old.webp" alt="Previous Veg Mayo pack in flat yellow with a bowl of mayo" loading="lazy"></div><div class="cap"><b>Veg Mayo</b><span>Flat yellow, condensed type, bowl and lettuce</span></div></div>
+      <div class="old-card neo wob"><div class="ph"><img src="img/lite_old.webp" alt="Previous Eggless Mayonnaise Lite pack in pale green with a heart and bowl" loading="lazy"></div><div class="cap"><b>Mayonnaise Lite</b><span>Pale green, script type, heart and bowl</span></div></div>
+    </div>
+    <div class="issues neo">
+      <div><span class="eyebrow">No system</span><h3>Three layouts, three type styles</h3><p>The logo moved, the product name changed form on every pack and the colours had no relationship.</p></div>
+      <div><span class="eyebrow">Hidden names</span><h3>Variant names hard to find</h3><p>"Lite" sat in a small red ribbon. "Mayonnaise" and "Mayo" were used for the same line.</p></div>
+      <div><span class="eyebrow">Generic food</span><h3>Bowls and lettuce said nothing</h3><p>The imagery showed mayo, not the kitchen it was made for, so buyers had no reason to pick one.</p></div>
+      <div><span class="eyebrow">Mixed claims</span><h3>"Pure", "Egg less", "Eggless"</h3><p>The one claim every buyer cares about was written three different ways.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- INSIGHT -->
+<section class="sec insight" id="insight" aria-labelledby="h-insight">
+  <div class="wrap">
+    <div class="qcard neo">
+            <span class="sticker">02 · The insight</span>
+      <p class="quote" id="h-insight">Positioning is deciding <span class="pk">who should feel what.</span></p>
+      <p class="big-p">A restaurant, a sandwich shop and a momo cart all buy a 1&nbsp;kg pouch of mayo, but for different reasons. So the range is designed around the kitchen it serves.</p>
+    </div>
+    <div class="vs">
+      <div class="no neo">
+        <span class="eyebrow">The easy answer</span>
+        <h3><span class="swap"><s>Good. Better. Best.</s><span class="new">Nope</span></span></h3>
+        <div class="ladder" aria-hidden="true"><span>Premium · best</span><span>Veg · middle</span><span>Lite · cheapest</span></div>
+        <p>A quality ladder makes Lite the one you settle for, and makes Veg look like a compromise.</p>
+      </div>
+      <div class="neo">
+        <span class="eyebrow">Our answer</span>
+        <h3>Three businesses. Three jobs.</h3>
+        <div class="fan" aria-hidden="true"><span style="background:var(--p-out)">Restaurant</span><span style="background:var(--v-out)">QSR / Café</span><span style="background:var(--l-out)">Street food</span></div>
+        <p>Each variant is the right choice for its kitchen. Nobody is trading down.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section class="sec journey-sec" aria-labelledby="h-journey">
+  <div class="wrap">
+    <div class="head">
+      <span class="sticker">03 · Range architecture</span>
+      <h2 id="h-journey">Burger → Sandwich → <span class="bar">Momos.</span></h2>
+      <p class="body">The food on each pack tells you which kitchen it belongs to. Left to right, the range moves from the restaurant plate to the café counter to the street cart.</p>
+    </div>
+    <div class="journey neo">
+      <div class="stop" style="--c:var(--p-out)">
+        <div class="food neo-sm"><img src="img/premium_food.webp" alt="Burger with mayonnaise, from the Premium Mayo pack" loading="lazy"></div>
+        <span class="who">Restaurants · premium cafés</span>
+        <h3>Premium Mayo</h3>
+        <p>Elevate the plate. A well-built burger stands for kitchens where every ingredient and every presentation detail matters.</p>
+      </div>
+      <div class="stop" style="--c:var(--v-out)">
+        <div class="food neo-sm"><img src="img/veg_food.webp" alt="Open vegetable sandwich with mayonnaise, from the Veg Mayo pack" loading="lazy"></div>
+        <span class="who">QSRs · casual cafés</span>
+        <h3>Veg Mayo</h3>
+        <p>Make everyday favourites better. The open sandwich shows mayo inside the food, used as an ingredient, not a garnish.</p>
+      </div>
+      <div class="stop" style="--c:var(--l-out)">
+        <div class="food neo-sm"><img src="img/lite_food.webp" alt="Plate of momos with mayonnaise, from the Mayo Lite pack" loading="lazy"></div>
+        <span class="who">Momo carts · food stalls</span>
+        <h3>Mayo Lite</h3>
+        <p>Keep the hustle moving. Momos belong to a world where speed, volume and value decide the sale.</p>
+      </div>
+    </div>
+    <div class="arrowrow" aria-hidden="true"><span>Restaurant</span><span>→</span><span>QSR / Café</span><span>→</span><span>Street food</span></div>
+
+    <div class="feel" aria-label="What each buyer should feel">
+      <article class="neo wob" style="--c:var(--p-in);--t:#fff"><span class="who">Premium · Restaurant owner</span><p class="said">This belongs in my kitchen.</p><div class="tags"><span>Rich</span><span>Premium</span><span>Indulgent</span><span>Professional</span></div></article>
+      <article class="neo wob" style="--c:var(--v-in)"><span class="who">Veg · Café owner</span><p class="said">This works for everything I make.</p><div class="tags"><span>Versatile</span><span>Familiar</span><span>Reliable</span><span>Everyday</span></div></article>
+      <article class="neo wob" style="--c:var(--l-in);--t:#fff"><span class="who">Lite · Street vendor</span><p class="said">This gives me the value I need to serve more.</p><div class="tags"><span>Practical</span><span>Accessible</span><span>Value</span><span>High-volume</span></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- SYSTEM -->
+<section class="sec system" id="system" aria-labelledby="h-system">
+  <div class="wrap">
+    <div class="head">
+      <span class="sticker">04 · The pack system</span>
+      <h2 id="h-system">One layout. <span class="bar">Four things change.</span></h2>
+      <p class="body">Every pack is built on the same grid. The brand, the structure and the pour stay fixed, so the family reads as one. Only the colours, the name and the food change, so each variant is easy to tell apart.</p>
+    </div>
+    <div class="anat">
+      <div class="anat-card neo">
+        <div class="anat-fig">
+          <img src="img/premium_new.webp" alt="Premium Mayo pack with numbered markers on each element of the layout" loading="lazy">
+          <span class="pin" style="--x:72%;--y:16%">1</span>
+          <span class="pin" style="--x:12%;--y:33%">2</span>
+          <span class="pin" style="--x:91%;--y:36%">3</span>
+          <span class="pin" style="--x:60%;--y:62%">4</span>
+          <span class="pin" style="--x:20%;--y:80%">5</span>
+          <span class="pin" style="--x:13%;--y:51%">6</span>
+          <span class="pin" style="--x:89%;--y:57%">7</span>
+          <span class="pin" style="--x:93%;--y:84%">8</span>
+        </div>
+      </div>
+      <ol class="legend neo">
+        <li><span class="n">1</span><div><b>Brand logo</b><small>Funtrip arch and tomato, top centre, breaking into the window. Same size on every pack.</small></div><span class="tag fixed">Fixed</span></li>
+        <li><span class="n">2</span><div><b>Variant window</b><small>A soft rounded panel that holds the story. Its colour carries the variant.</small></div><span class="tag flex">Flexes</span></li>
+        <li><span class="n">3</span><div><b>Variant name</b><small>Heavy rounded sans, white, stacked in two lines. MAYO is always the biggest word.</small></div><span class="tag flex">Flexes</span></li>
+        <li><span class="n">4</span><div><b>The pour</b><small>A spoon pouring thick mayo onto the food. The same product moment on every pack.</small></div><span class="tag fixed">Fixed</span></li>
+        <li><span class="n">5</span><div><b>Hero food</b><small>Burger, sandwich or momos. This is where the kitchen is named.</small></div><span class="tag flex">Flexes</span></li>
+        <li><span class="n">6</span><div><b>Eggless badge</b><small>One claim, written one way: 100% EGGLESS, with a leaf mark.</small></div><span class="tag fixed">Fixed</span></li>
+        <li><span class="n">7</span><div><b>Net weight</b><small>Right side, below the pour, readable at a glance on the rack.</small></div><span class="tag fixed">Fixed</span></li>
+        <li><span class="n">8</span><div><b>Food doodle field</b><small>Tone-on-tone line drawings of kitchen food in the outer colour.</small></div><span class="tag flex">Flexes</span></li>
+      </ol>
+    </div>
+    <div class="crowns" aria-label="Funtrip logo on all three packs">
+      <img class="neo wob" src="img/premium_logo.webp" alt="Funtrip logo on Premium Mayo" loading="lazy">
+      <img class="neo wob" src="img/veg_logo.webp" alt="Funtrip logo on Veg Mayo" loading="lazy">
+      <img class="neo wob" src="img/lite_logo.webp" alt="Funtrip logo on Mayo Lite" loading="lazy">
+    </div>
+    <div class="rule"><span class="sticker">Rule 01</span><p>The logo never moves. It sits on the seam between the outer field and the window, so the brand is read first and the variant second.</p></div>
+  </div>
+</section>
+
+<!-- COLOUR -->
+<section class="sec colour" aria-labelledby="h-colour">
+  <div class="wrap">
+    <div class="head">
+      <span class="sticker">05 · Colour pairs</span>
+      <h2 id="h-colour">One colour for the shelf. <span class="bar">One for the story.</span></h2>
+      <p class="body">The outer field is loud, so the variant can be found across a store room. The window colour is the variant's voice: deep slate for the restaurant, open sky blue for the café, leaf green for the street.</p>
+    </div>
+    <div class="swatches">
+      <div class="sw neo wob" style="--o:var(--p-out);--i:var(--p-in)"><div class="inner"><h3>Premium</h3></div><div class="hex"><span>Outer<b>#3CC3CC</b></span><span>Window<b>#2F4757</b></span></div></div>
+      <div class="sw neo wob" style="--o:var(--v-out);--i:var(--v-in)"><div class="inner"><h3>Veg</h3></div><div class="hex"><span>Outer<b>#EBB924</b></span><span>Window<b>#48A2EC</b></span></div></div>
+      <div class="sw neo wob" style="--o:var(--l-out);--i:var(--l-in)"><div class="inner"><h3>Lite</h3></div><div class="hex"><span>Outer<b>#A9D14A</b></span><span>Window<b>#3FA23A</b></span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CHAPTER 1 -->
+<div id="variants"></div>
+<section class="chapter" aria-labelledby="h-premium" style="--o:var(--p-in);--o2:var(--p-out);--t:#fff">
+  <div class="ch-band">
+    <div class="wrap ch-grid">
+      <div class="ch-pack" style="--r:-4deg"><img src="img/premium_new.webp" alt="Premium Mayo pack" loading="lazy"></div>
+      <div class="ch-copy">
+        <span class="sticker">Variant 01 / 03</span>
+        <h2 id="h-premium">Premium Mayo</h2>
+        <p class="line"><span>Made for the plate.</span></p>
+        <p class="body">For businesses where presentation and the eating experience matter. The food carries the quality message: a properly built burger, mayo layered inside, and a deep slate window that feels calm and expensive against the bright teal.</p>
+        <div class="facts neo-sm">
+          <div><span class="k">For</span><span class="v">Restaurants, premium cafés, established QSRs</span></div>
+          <div><span class="k">Positioning</span><span class="v">Premium performance for premium food</span></div>
+          <div><span class="k">Hero food</span><span class="v">Gourmet burger</span></div>
+          <div><span class="k">Feeling</span><span class="v">Rich · Indulgent · Professional</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <figure class="ch-scene"><img src="img/scene_premium.webp" alt="Premium Mayo pack on a slate counter in a restaurant kitchen next to a burger with mayo layered inside, chef in the background" loading="lazy"></figure>
+  <div class="ch-duo">
+    <figure><img src="img/hands_premium.webp" alt="Chef piping mayonnaise inside an open burger, top bun set aside" loading="lazy"></figure>
+    <div class="panel"><span class="sticker">In the kitchen</span><p class="big">Elevate the plate.</p><p class="why">For Premium Mayo, the food itself shows the quality. A well-crafted burger stands for restaurants and cafés where every ingredient, texture and detail is chosen.</p></div>
+  </div>
+</section>
+
+<!-- CHAPTER 2 -->
+<section class="chapter" aria-labelledby="h-veg" style="--o:var(--v-in);--o2:var(--v-out);--t:#000">
+  <div class="ch-band">
+    <div class="wrap ch-grid">
+      <div class="ch-pack" style="--r:3deg"><img src="img/veg_new.webp" alt="Veg Mayo pack" loading="lazy"></div>
+      <div class="ch-copy">
+        <span class="sticker">Variant 02 / 03</span>
+        <h2 id="h-veg">Veg Mayo</h2>
+        <p class="line"><span>Made for every menu.</span></p>
+        <p class="body">The workhorse of the range, not a halfway point. The café-style open sandwich puts mayo inside the food, where it works as a prep ingredient. Sunny yellow and sky blue keep it friendly and familiar.</p>
+        <div class="facts neo-sm">
+          <div><span class="k">For</span><span class="v">QSRs, casual cafés, sandwich and fast-food outlets</span></div>
+          <div><span class="k">Positioning</span><span class="v">The versatile everyday mayo for busy kitchens</span></div>
+          <div><span class="k">Hero food</span><span class="v">Open grilled veg sandwich</span></div>
+          <div><span class="k">Feeling</span><span class="v">Versatile · Familiar · Reliable</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <figure class="ch-scene"><img src="img/scene_veg.webp" alt="Veg Mayo pack on a bright café counter next to a grilled vegetable sandwich" loading="lazy"></figure>
+  <div class="ch-duo">
+    <div class="panel"><span class="sticker">On the counter</span><p class="big">Make everyday favourites better.</p><p class="why">Veg Mayo moves from the premium burger to something more familiar: the sandwich that sells all day. Here mayo is part of the recipe, spread on every slice before it hits the press.</p></div>
+    <figure><img src="img/hands_veg.webp" alt="Café worker spreading mayonnaise on a row of toasted bread slices" loading="lazy"></figure>
+  </div>
+</section>
+
+<!-- CHAPTER 3 -->
+<section class="chapter" aria-labelledby="h-lite" style="--o:var(--l-in);--o2:var(--l-out);--t:#000">
+  <div class="ch-band">
+    <div class="wrap ch-grid">
+      <div class="ch-pack" style="--r:-3deg"><img src="img/lite_new.webp" alt="Mayo Lite pack" loading="lazy"></div>
+      <div class="ch-copy">
+        <span class="sticker">Variant 03 / 03</span>
+        <h2 id="h-lite">Mayo Lite</h2>
+        <p class="line"><span>Made for the hustle.</span></p>
+        <p class="body">Smart value for high-volume food businesses. The vendor is not buying a restaurant experience; they need a mayo that works fast, tastes right and keeps margins healthy. Momos place it in the street-food world instantly.</p>
+        <div class="facts neo-sm">
+          <div><span class="k">For</span><span class="v">Momo carts, food stalls, street vendors</span></div>
+          <div><span class="k">Positioning</span><span class="v">Smart value for high-volume food businesses</span></div>
+          <div><span class="k">Hero food</span><span class="v">Pan-fried momos</span></div>
+          <div><span class="k">Feeling</span><span class="v">Practical · Accessible · High-volume</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <figure class="ch-scene"><img src="img/scene_lite.webp" alt="Mayo Lite pack on a steel momo cart at night with a steamer and a plate of momos" loading="lazy"></figure>
+  <div class="ch-duo">
+    <figure><img src="img/hands_lite.webp" alt="Street vendor drizzling mayonnaise over a plate of momos at night" loading="lazy"></figure>
+    <div class="panel"><span class="sticker">At the cart</span><p class="big">Keep the hustle moving.</p><p class="why">For Mayo Lite we moved into street food, where speed, volume and value matter. Momos were chosen because they are instantly tied to this world and naturally paired with mayo.</p></div>
+  </div>
+</section>
+
+<!-- BEFORE AFTER -->
+<section class="sec ba-sec" id="compare" aria-labelledby="h-ba">
+  <div class="wrap">
+    <div class="head">
+      <span class="sticker">06 · Before / after</span>
+      <h2 id="h-ba">Same mayo. <span class="bar">Different destiny.</span></h2>
+      <p class="body">Same products, same 1&nbsp;kg pouch. Drag the handle: left of the line is the old pack, right is the new one.</p>
+    </div>
+    <div class="ba-grid">
+      <div class="ba-item neo">
+        <div class="ba" style="--o:var(--p-out)">
+          <div class="layer after"><img src="img/ba_premium_new.webp" alt="New Premium Mayo pack" loading="lazy"></div>
+          <div class="layer before"><img src="img/ba_premium_old.webp" alt="Old Eggless Mayonnaise pack" loading="lazy"></div>
+          <span class="tl">Before</span><span class="tr">After</span>
+          <input type="range" id="ba-premium" min="0" max="100" value="50" step="0.5" aria-label="Compare old and new Premium Mayo pack">
+          <span class="line"></span>
+          <span class="knob"><svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="3" stroke-linecap="square"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span>
+        </div>
+        <div class="ba-cap"><h3>Premium Mayo</h3><p>Purple and script type become a slate window with the burger as hero. The name moves from decoration to headline.</p></div>
+      </div>
+      <div class="ba-item neo">
+        <div class="ba" style="--o:var(--v-out)">
+          <div class="layer after"><img src="img/ba_veg_new.webp" alt="New Veg Mayo pack" loading="lazy"></div>
+          <div class="layer before"><img src="img/ba_veg_old.webp" alt="Old Veg Mayo pack" loading="lazy"></div>
+          <span class="tl">Before</span><span class="tr">After</span>
+          <input type="range" id="ba-veg" min="0" max="100" value="50" step="0.5" aria-label="Compare old and new Veg Mayo pack">
+          <span class="line"></span>
+          <span class="knob"><svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="3" stroke-linecap="square"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span>
+        </div>
+        <div class="ba-cap"><h3>Veg Mayo</h3><p>The yellow stays, so existing buyers still know it. The bowl becomes a sandwich and the name doubles in size.</p></div>
+      </div>
+      <div class="ba-item neo">
+        <div class="ba" style="--o:var(--l-out)">
+          <div class="layer after"><img src="img/ba_lite_new.webp" alt="New Mayo Lite pack" loading="lazy"></div>
+          <div class="layer before"><img src="img/ba_lite_old.webp" alt="Old Eggless Mayonnaise Lite pack" loading="lazy"></div>
+          <span class="tl">Before</span><span class="tr">After</span>
+          <input type="range" id="ba-lite" min="0" max="100" value="50" step="0.5" aria-label="Compare old and new Mayo Lite pack">
+          <span class="line"></span>
+          <span class="knob"><svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="3" stroke-linecap="square"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span>
+        </div>
+        <div class="ba-cap"><h3>Mayo Lite</h3><p>"Lite" comes out of a small ribbon and becomes half the name. Momos replace the heart and bowl.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINALE -->
+<section class="sec finale" aria-labelledby="h-final">
+  <div class="wrap">
+    <div class="head"><span class="sticker" id="h-final">07 · One line each</span></div>
+    <div class="lines neo">
+      <div style="--c:var(--p-out)"><p><i>Premium</i> made for the plate.</p><span>Restaurants</span></div>
+      <div style="--c:var(--v-out)"><p><i>Veg</i> made for every menu.</p><span>QSRs &amp; cafés</span></div>
+      <div style="--c:var(--l-out)"><p><i>Lite</i> made for the hustle.</p><span>Street food</span></div>
+    </div>
+    <div class="macros">
+      <img class="neo wob" src="img/macro1.webp" alt="Mayonnaise folding off a silver spoon" loading="lazy">
+      <img class="neo wob" src="img/macro2.webp" alt="Thick mayonnaise pouring from a spoon into a pool" loading="lazy">
+      <img class="neo wob" src="img/macro3.webp" alt="Glossy ribbon of mayonnaise falling from a spoon" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="cta" aria-label="Thank you">
+  <div class="wrap">
+    <h2>Thanks for <span class="swap"><s>scrolling</s><span class="new">tasting</span></span></h2>
+    <p>Three kitchens. Three needs. One mayo range.</p>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="brandrow">
+      <a class="logo" href="#top"><img src="img/hop-logo.svg" alt="House of Pentool logo" width="40" height="44"><span>House of Pentool</span></a>
+      <a class="btn" href="#top">Back to top ↑</a>
+    </div>
+    <div class="grid">
+      <div><span class="eyebrow">Client</span><b>Funtrip®</b></div>
+      <div><span class="eyebrow">Studio</span><b>House of Pentool</b></div>
+      <div><span class="eyebrow">Campaign imagery</span><b>Photoshop</b></div>
+      <div><span class="eyebrow">Range</span><b>Premium · Veg · Lite, 1 kg</b></div>
+    </div>
+    <p class="copy">© 2026 House of Pentool. All rights unboxed.</p>
+  </div>
+</footer>
+
+<a class="fab" href="#compare">⚡ Compare packs</a>
+
+<script>
+(function(){
+  var sliders=[].slice.call(document.querySelectorAll('.ba'));
+  sliders.forEach(function(ba){
+    var input=ba.querySelector('input');
+    function set(v){ba.style.setProperty('--pos',v+'%');}
+    input.addEventListener('input',function(){ba.dataset.touched='1';set(input.value);});
+    set(input.value);
+  });
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce||!('IntersectionObserver' in window))return;
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting)return; io.unobserve(e.target);
+      var ba=e.target,input=ba.querySelector('input'),t0=null,dur=2200;
+      function frame(t){
+        if(ba.dataset.touched)return;
+        if(t0===null)t0=t; var k=Math.min(1,(t-t0)/dur);
+        var v=k>=1?50:50+Math.sin(k*Math.PI*2)*30*(1-k*0.2);
+        input.value=v; ba.style.setProperty('--pos',v+'%');
+        if(k<1)requestAnimationFrame(frame);
+      }
+      setTimeout(function(){requestAnimationFrame(frame);},300);
+    });
+  },{threshold:.6});
+  sliders.forEach(function(s){io.observe(s);});
+})();
+</script>
+
+</body></html>
